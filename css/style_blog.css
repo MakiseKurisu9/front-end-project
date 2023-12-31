@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(noise-tile-blue.png);
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto, Helvetica, Arial, sans-serif";
+}
+
+.imdb_color {
+  background-color: black;
+}
+
+/*导航开始*/
+.imdb1_up {
+  width: 100%;
+  height: 56px;
+  background-color: rgb(13, 13, 13);
+  margin: 0 auto;
+}
+
+.home {
+  margin-left: 322px;
+  margin-top: 9px;
+}
+
+.imdb1_up_select {
+  width: 1502px;
+  height: 46px;
+  float: right;
+}
+
+.imdb1_up_select_character {
+  line-height: 46px;
+  text-decoration: none;
+  color: black;
+}
+
+#Menu {
+  font-family: "Roboto, Helvetica, Arial, sans-serif";
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  top: 3px;
+  left: 21px;
+  transition: border 0.3s ease;
+}
+
+#Menu:hover {
+  border-radius: 10%;
+  border: 3px solid rgb(31, 31, 31);
+  border-width: 6px;
+  background-color: rgb(31, 31, 31);
+}
+
+.imdb1_up_select_option_other {
+  transition: border 0.3s ease;
+}
+
+.imdb1_up_select_option_other:hover {
+  border-radius: 10%;
+  border: 3px solid rgb(31, 31, 31);
+  border-width: 6px;
+  background-color: rgb(31, 31, 31);
+}
+
+#search {
+  position: relative;
+  background-color: white;
+  left: -33px;
+  top: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.imdb1_up_select_search {
+  width: 720px;
+  height: 30px;
+  margin-left: 60px;
+}
+
+.imdb1_up_select_search:focus {
+  outline: none;
+  border-radius: 10px 10px;
+}
+
+.imdb1_up_select_option {
+  position: relative;
+  left: -73px;
+  float: right;
+  width: 600px;
+  height: 31px;
+}
+
+.imdb1_up_select_option ul li {
+  list-style: none; /*eliminate dot*/
+  float: left;
+  margin-left: 25px;
+  line-height: 46px;
+  text-decoration: none;
+  color: white;
+}
+
+#imdb1_up_select_option_vip {
+  color: aqua;
+}
+
+.imdb1_up_select_option img {
+  position: relative;
+  top: 4px;
+  right: -22px;
+  width: 20px;
+  height: 20px;
+}
+
+.imdb1_up_select_option ul li a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/*导航结束*/
+
+.blog1_up {
+  margin-top: 36px;
+  margin-bottom: 120px;
+  margin-left: 335px;
+  width: 195px;
+  height: 42px;
+}
+
+.blog1_up_left {
+  width: 92px;
+  height: 42px;
+}
+
+.blog1_up_right {
+  position: absolute;
+  top: 91px;
+  left: 453px;
+  width: 106px;
+  height: 34px;
+  color: white;
+}
+
+.blog1_up_right_text {
+  font-size: calc(0.75em);
+  margin-bottom: 0.25em;
+}
+
+.blog1_up_right_main_text {
+  font-size: 1rem;
+}
+
+.blog2_title {
+  width: 1213px;
+  height: 362.5px;
+  margin-left: 335px;
+}
+
+.blog2_title_main {
+  height: auto;
+  width: 100%;
+}
+
+.blog2_title_line {
+  display: block;
+  width: 722px;
+  height: 57px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  background-color: rgb(248 60 237);
+}
+
+.blog2_title_text {
+  float: right;
+  position: relative;
+  top: -57px;
+}
+
+.blog3_first {
+  margin-top: 119px;
+  width: 761px;
+  height: 135px;
+  float: right;
+}
+
+.blog3_first_text {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+.blog4_line {
+  margin-top: 334px;
+  margin-left: 335px;
+  width: 1240px;
+  border-radius: 2px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.blog5_blog {
+  width: 1684px;
+  height: 1230px;
+  margin-top: 63px;
+  margin-left: 113px;
+  margin-right: 113px;
+}
+
+.blog5_blog_img {
+  width: 100%;
+  height: 100%px;
+  border-radius: 20px;
+}
+
+.blog6_describption {
+  width: 1027px;
+  height: 634px;
+  margin-top: 61px;
+  margin-left: 439px;
+}
+
+.blog6_describption_top {
+  width: 330px;
+  height: 20px;
+  margin-left: 207px;
+}
+
+.blog6_describption_top_text {
+  color: rgb(245, 197, 2);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.blog6_describption_mid {
+  margin-top: 16px;
+  width: 1021px;
+  height: 377px;
+}
+
+.blog6_describption_mid_left {
+  width: 186px;
+
+  height: 273px;
+  margin-top: 10px;
+}
+
+.blog6_describption_mid_left_picture {
+  width: 186px;
+  height: 273px;
+}
+
+.blog6_describption_mid_right {
+  position: relative;
+  top: -284px;
+  margin-left: 218px;
+  width: 833px;
+  height: 376px;
+}
+
+.blog6_describption_mid_right_title {
+  width: 399px;
+  height: 49px;
+}
+
+.blog6_describption_mid_right_title_text {
+  text-decoration: none;
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.blog6_describption_mid_right_rate {
+  margin-top: 24px;
+  width: 162px;
+  height: 16px;
+}
+
+.blog6_describption_mid_right_rate_star {
+  color: rgb(245, 197, 24);
+  height: 14px;
+  width: 18px;
+}
+
+.blog6_describption_mid_right_rate_number {
+  position: relative;
+  top: -23px;
+  left: 23px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.blog6_describption_mid_right_text {
+  width: 813px;
+  height: 257px;
+  margin-top: 30px;
+}
+
+.blog6_describption_mid_right_maintext {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+.blog6_describption_mid_right_feature {
+  margin-top: 36px;
+
+  width: 95px;
+  height: 18px;
+}
+
+.blog6_describption_mid_right_feature_text {
+  color: yellow;
+  font-size: 18px;
+}
+
+.blog6_describption_mid_right_actor {
+  margin-top: 15px;
+  width: 549px;
+  height: 138px;
+}
+
+.blog6_describption_mid_right_actor ul li {
+  list-style: none;
+  float: left;
+  width: 115px;
+  height: 137px;
+  margin-right: 20px;
+}
+
+.blog6_describption_mid_right_actor ul li img {
+  width: 115px;
+  height: 111px;
+  border-radius: 50%;
+}
+
+.blog6_describption_mid_right_actor ul li p {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+.blog6_describption_mid_right_actor ul li a {
+  text-decoration: none;
+}
+
+.blog6_describption_mid_right_actor ul li a :hover {
+  color: rgb(245, 197, 24);
+  text-decoration: underline;
+}
+
+#review {
+  color: rgb(245, 197, 24);
+  position: absolute;
+  top: 3040px;
+  left: 334px;
+  font-size: 60px;
+}
+
+.blog7_review {
+  margin: 259px auto 60px auto;
+  width: 1242px;
+  height: 6500px;
+}
+
+.blog7_review h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+}
+
+.blog7_review hr {
+  margin-top: 60px;
+  border-radius: 2px;
+  width: 1242px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.blog7_review p {
+  font-size: 16px;
+  color: white;
+}
+
+.blog7_review img {
+  margin: 20px 0 20px 110px;
+}
+
+.blog7_review h2 {
+  margin-top: 50px;
+  color: yellow;
+}
+
+.blog7_review h5 {
+  color: white;
+  margin: 30px 0;
+}
+
+.blog7_time {
+  color: red;
+}
+
+.blog8_post {
+  margin: 0 auto;
+  height: 100px;
+  width: 1230px;
+}
+
+.blog8_post ul {
+  list-style-type: none;
+}
+
+.blog8_post li {
+  float: left;
+  margin-left: 10px;
+}
+
+.blog8_post p {
+  color: white;
+}
+
+.blog8_post img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}

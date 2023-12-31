@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+}
+
+.imdb_color {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+/*导航开始*/
+.imdb1_up {
+  width: 100%;
+  height: 56px;
+  background-color: rgb(13, 13, 13);
+  margin: 0 auto;
+}
+
+.home {
+  margin-left: 322px;
+  margin-top: 9px;
+}
+
+.imdb1_up_select {
+  width: 1502px;
+  height: 46px;
+  float: right;
+}
+
+.imdb1_up_select_character {
+  line-height: 46px;
+  text-decoration: none;
+  color: black;
+}
+
+#Menu {
+  font-family: "Roboto, Helvetica, Arial, sans-serif";
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  top: 3px;
+  left: 21px;
+  transition: border 0.3s ease;
+}
+
+#Menu:hover {
+  border-radius: 10%;
+  border: 3px solid rgb(31, 31, 31);
+  border-width: 6px;
+  background-color: rgb(31, 31, 31);
+}
+
+.imdb1_up_select_option_other {
+  transition: border 0.3s ease;
+}
+
+.imdb1_up_select_option_other:hover {
+  border-radius: 10%;
+  border: 3px solid rgb(31, 31, 31);
+  border-width: 6px;
+  background-color: rgb(31, 31, 31);
+}
+
+#search {
+  position: relative;
+  background-color: white;
+  left: -33px;
+  top: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.imdb1_up_select_search {
+  width: 720px;
+  height: 30px;
+  margin-left: 60px;
+}
+
+.imdb1_up_select_search:focus {
+  outline: none;
+  border-radius: 10px 10px;
+}
+
+.imdb1_up_select_option {
+  position: relative;
+  left: -73px;
+  float: right;
+  width: 600px;
+  height: 31px;
+}
+
+.imdb1_up_select_option ul li {
+  list-style: none; /*eliminate dot*/
+  float: left;
+  margin-left: 25px;
+  line-height: 46px;
+  text-decoration: none;
+  color: white;
+}
+
+#imdb1_up_select_option_vip {
+  color: aqua;
+}
+
+.imdb1_up_select_option img {
+  position: relative;
+  top: 4px;
+  right: -22px;
+  width: 20px;
+  height: 20px;
+}
+
+.imdb1_up_select_option ul li a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/*Sign*/
+.Sign_In {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 220px;
+  left: 750px;
+  width: 350px;
+  height: 450px;
+  background-color: #ffffff49;
+  border-radius: 50px;
+  /*元素的内部底部添加一个具有白色、半透明且模糊的阴影*/
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.5) inset;
+}
+
+.title {
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+  text-shadow: 0 0 10px #ff9dff80;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  border: 5px solid transparent;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 100px;
+  padding: 5px 20px 0 20px;
+  transition: 0.3s;
+  font-size: 18px;
+  outline: none;
+}
+
+input[type="text"],
+input[type="password"] {
+  background: rgba(255, 255, 255, 0);
+  border: 5px solid #ffffff;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 100px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+input::placeholder {
+  color: #394d8a;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.Remember {
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #7597ff;
+  margin-left: 20px;
+}
+
+#remember {
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  color: #007bff;
+}
+
+#Sign_up {
+  margin-right: 20px;
+  border: none;
+  background-color: #ffffff00;
+  color: #7597ff;
+  font-size: 18px;
+}

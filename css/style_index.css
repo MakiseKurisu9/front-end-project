@@ -1,0 +1,702 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.imdb_color {
+  background-color: black;
+}
+
+/*导航开始*/
+.imdb1_up {
+  width: 100%;
+  height: 56px;
+  background-color: rgb(13, 13, 13);
+  margin: 0 auto;
+}
+
+.home {
+  margin-left: 322px;
+  margin-top: 9px;
+}
+
+.imdb1_up_select {
+  width: 1502px;
+  height: 46px;
+  float: right;
+}
+
+.imdb1_up_select_character {
+  line-height: 46px;
+  text-decoration: none;
+  color: black;
+}
+
+#Menu {
+  font-family: "Roboto, Helvetica, Arial, sans-serif";
+  font-size: 14px;
+  color: white;
+  position: relative;
+  top: 3px;
+  left: 21px;
+  transition: border 0.3s ease;
+}
+
+#Menu:hover {
+  border-radius: 10%;
+  border: 3px solid rgb(31, 31, 31);
+  border-width: 6px;
+  background-color: rgb(31, 31, 31);
+}
+
+.imdb1_up_select_option_other {
+  transition: border 0.3s ease;
+}
+
+.imdb1_up_select_option_other:hover {
+  border-radius: 10%;
+  border: 3px solid rgb(31, 31, 31);
+  border-width: 6px;
+  background-color: rgb(31, 31, 31);
+}
+
+#search {
+  position: relative;
+  background-color: white;
+  left: -33px;
+  top: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.imdb1_up_select_search {
+  width: 720px;
+  height: 30px;
+  margin-left: 60px;
+}
+
+.imdb1_up_select_search:focus {
+  outline: none;
+  border-radius: 10px 10px;
+}
+
+.imdb1_up_select_option {
+  position: relative;
+  left: -73px;
+  float: right;
+  width: 600px;
+  height: 31px;
+}
+
+.imdb1_up_select_option ul li {
+  list-style: none; /*eliminate dot*/
+  float: left;
+  margin-left: 25px;
+  line-height: 46px;
+  text-decoration: none;
+  color: white;
+}
+
+#imdb1_up_select_option_vip {
+  color: aqua;
+}
+
+.imdb1_up_select_option img {
+  position: relative;
+  top: 4px;
+  right: -22px;
+  width: 20px;
+  height: 20px;
+}
+
+.imdb1_up_select_option ul li a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/*导航结束*/
+
+/*预告开始*/
+.imdb2_forecast {
+  margin: 58px auto;
+  background-color: black;
+  width: 1264px;
+  height: 548px;
+}
+
+#imdb2_forecast_text {
+  position: absolute;
+  top: 75px;
+  font-size: 26px;
+  color: rgb(245, 197, 24);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  left: 330px;
+}
+
+/*实现轮播图*/
+.imdb2_forecast_leftPicture {
+  position: relative;
+  width: 800px;
+  height: 548px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#isolist {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+#isolist li {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #666;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  float: left;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+#imglist {
+  text-decoration: none;
+  width: 4800px;
+  height: 548px;
+}
+
+.imdb2_forecast_leftPicture ul li img {
+  width: 800px;
+  height: 548px;
+}
+
+.imdb2_forecast_leftPicture ul li {
+  float: left;
+  list-style: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  width: 30px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  background-color: #666;
+}
+
+.prev {
+  left: 5px;
+  top: 45%;
+}
+
+.next {
+  right: 5px;
+  top: 45%;
+}
+
+/*实现结束*/
+.imdb2_forecast_right {
+  position: relative;
+  top: -548px;
+  width: 408px;
+  height: 548px;
+  float: right;
+}
+
+.imdb2_forecast_right_describtion {
+  font-size: 24px;
+  color: rgb(245, 197, 24);
+  padding: 4px 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.imdb2_forecast_right_RightPicture {
+  width: 407px;
+  height: 454px;
+  background-color: rgb(26, 26, 26);
+}
+
+.imdb2_forecast_right_RightPicture_show_text {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 63px;
+}
+
+.imdb2_forecast_right_RightPicture_show_text:hover {
+  color: yellow;
+}
+
+.imdb2_forecast_right_RightPicture_show_picture {
+  position: relative;
+  top: 1px;
+  width: 90px;
+  height: 128px;
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+.imdb2_forecast_right_RightPicture_show li {
+  display: flex;
+  align-items: center;
+}
+
+.imdb2_forecast_right_RightPicture_more {
+  position: relative;
+  left: 18px;
+  top: 40px;
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+.imdb2_forecast_right_RightPicture_more:hover {
+  color: aquamarine;
+}
+
+/*imdb今天开始*/
+.imdb3_today {
+  margin: 63px, auto;
+  background-color: black;
+  height: 400px;
+  width: 100%;
+}
+
+.imdb3_today_title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 336px;
+  font-size: 40px;
+  color: yellow;
+}
+
+.imdb3_today_post {
+  width: 815px;
+  height: 222px;
+  margin-left: 336px;
+  margin-top: 31px;
+}
+
+.imdb3_today_post_right {
+  position: relative;
+  top: 1px;
+  left: 40px;
+}
+
+.imdb3_today_description {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 815px;
+  margin-top: 16px;
+  margin-left: 337px;
+  font-size: 16px;
+}
+
+.imdb3_today_description_left_text {
+  text-align: left;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.imdb3_today_description_right_text {
+  position: relative;
+  top: -17px;
+  left: 424px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.imdb3_today_description_left_text:hover,
+.imdb3_today_description_right_text:hover {
+  text-decoration: underline;
+}
+
+.imdb3_today_description_left_link {
+  position: relative;
+  top: 37px;
+  left: -170px;
+  color: #5799ef;
+  text-decoration: none;
+}
+
+.imdb3_today_description_right_link {
+  position: relative;
+  color: #5799ef;
+  left: 239px;
+  top: 19px;
+  text-decoration: none;
+}
+
+.imdb3_today_description_left_link:hover,
+.imdb3_today_description_right_link:hover {
+  text-decoration: underline;
+}
+
+/**imdb今天结束/
+
+/*imdb2023开始*/
+.imdb4_2023 {
+  margin: 28px auto;
+  width: 1236px;
+  height: 305px;
+}
+
+.imdb4_2023_title_link {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.imdb4_2023_title_link:hover {
+  color: #f5c518;
+}
+
+.imdb4_2023_title_text {
+  color: #ffffffb3;
+  margin-top: 16px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.imdb4_2023_list {
+  margin: 24px auto;
+  width: 1233px;
+  height: 225px;
+}
+
+.imdb4_2023_list_picture1,
+.imdb4_2023_list_picture2,
+.imdb4_2023_list_picture3 {
+  width: 393px;
+  height: 219px;
+  float: right;
+}
+
+.imdb4_2023_list_picture2,
+.imdb4_2023_list_picture3 {
+  margin-right: 24px;
+  text-decoration: none;
+}
+
+.imdb4_2023_list_picture2 {
+  position: relative;
+  top: -21px;
+  left: 0;
+}
+
+/*阴影盒子设置，首先是变化后的样子，圆框粉色*/
+.imdb4_2023_list_picture2:hover,
+.imdb4_2023_list_picture3:hover,
+.imdb4_2023_list_picture1:hover {
+  border-radius: 5%;
+  box-shadow: -3px 3px 1px 1px rgba(255, 0, 128, 0.2);
+}
+
+/*阴影盒子设置，原先的样子，圆框蓝色，0.3s变化时间*/
+.imdb4_2023_list_picture1,
+.imdb4_2023_list_picture2,
+.imdb4_2023_list_picture3 {
+  transition: box-shadow 0.3s ease;
+  border-radius: 5%;
+  box-shadow: -3px 3px 1px 1px rgba(81, 151, 218, 0.2);
+}
+
+.imdb4_2023_list_picture3 {
+  position: relative;
+  left: 2px;
+  top: -42px;
+}
+
+/*imdb2023结束*/
+
+/*imdb看什么开始*/
+.imdb5_WhatToWatch {
+  width: 1232px;
+  height: 622px;
+  margin: 55px auto;
+}
+
+.imdb5_WhatToWatch_title {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  color: yellow;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+
+.imdb5_WhatToWatch_recommendations1 {
+  margin-top: -30px;
+  width: 280px;
+  height: 14px;
+  float: right;
+}
+
+.imdb5_WhatToWatch_recommendations {
+  text-decoration: none;
+  color: #f1f5fa;
+  transition: border 0.2s ease;
+}
+
+.imdb5_WhatToWatch_recommendations:hover {
+  border-radius: 5%;
+  border: 1px solid rgb(53, 52, 52);
+  border-width: 6px;
+  background-color: rgb(53, 52, 52);
+}
+
+.imdb5_WhatToWatch_topPicks_img {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 15px;
+  left: 1px;
+}
+
+.imdb5_WhatToWatch_topPicks {
+  width: 255px;
+  height: 55px;
+  position: relative;
+  top: 8px;
+  float: left;
+}
+
+.imdb5_WhatToWatch_topPicks_title {
+  position: relative;
+  top: -25px;
+  left: 33px;
+  padding-left: 0.75rem;
+  max-height: 2.4em;
+  color: white;
+  font-size: 23px;
+}
+
+.imdb5_WhatToWatch_ForYou {
+  margin-top: 73px;
+  width: 1232px;
+  height: 23px;
+}
+
+.imdb5_WhatToWatch_ForYou_text {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.03125em;
+}
+
+.imdb5_WhatToWatch_list {
+  width: 1232px;
+  height: 476px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.imdb5_WhatToWatch_list_post {
+  float: left;
+  width: 182px;
+  height: 275px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+/*实现简报*/
+.imdb5_WhatToWatch_list_post_picture {
+  width: 182px;
+  height: 275px;
+  transition: all 0.5s ease-in-out;
+  transform: scaleY(1);
+}
+
+.mask {
+  width: 182px;
+  height: 275px;
+  position: absolute;
+  top: 1687px;
+  transform: scale(0.3);
+  transition: all 0.5s ease;
+  opacity: 0;
+  border-radius: 5px;
+  text-align: left;
+  background-color: rgba(179, 176, 176, 0.5);
+}
+
+.mask h3 p {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.mask h3 {
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.mask p {
+  font-family: "Times New Roman", Times, serif;
+  overflow: hidden;
+  width: 100%;
+  font-size: 14px;
+  color: aliceblue;
+}
+
+.mask:hover {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/*注意 是选中父类后发生变化！！！*/
+.imdb5_WhatToWatch_list_post:hover .mask {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.imdb5_WhatToWatch_list_post:hover .imdb5_WhatToWatch_list_post_picture {
+  transform: scale(0.1);
+  opacity: 0;
+}
+
+.imdb5_WhatToWatch_list_bottom {
+  width: 1232px;
+  height: 200px;
+  margin-top: 22px;
+}
+
+.imdb5_WhatToWatch_list_bottom_post {
+  background-color: rgb(26, 26, 26);
+  height: 200px;
+  width: 182px;
+  margin-right: 20px;
+  float: left;
+}
+
+.imdb5_WhatToWatch_list_bottom_star {
+  width: 181.5px;
+  height: 16px;
+  margin-top: 20px;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.imdb5_WhatToWatch_list_bottom_name {
+  width: 181.5px;
+  height: 18px;
+  margin-top: 18px;
+}
+
+.imdb5_WhatToWatch_list_bottom_name1 {
+  text-decoration: none;
+  margin-left: 2px;
+  font-size: 18px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.imdb5_WhatToWatch_list_bottom_name1:hover {
+  text-decoration: underline;
+}
+
+.imdb5_WhatToWatch_list_bottom_watchlist {
+  width: 181.5px;
+  height: 15px;
+  margin: 30px auto;
+}
+
+.imdb5_WhatToWatch_list_bottom_watchlist1 {
+  text-decoration: none;
+  color: #5799ef;
+  border-radius: 5px;
+  width: 84px;
+  height: 14px;
+  margin-left: 30px;
+  border: 4px solid rgb(34, 34, 34);
+  border-width: 9px;
+  background-color: rgb(34, 34, 34);
+}
+
+.imdb5_WhatToWatch_list_bottom_watchlist1:hover {
+  color: #5799ef;
+  border-radius: 8%;
+  border: 4px solid rgb(58, 57, 57);
+  border-width: 9px;
+  background-color: rgb(58, 57, 57);
+}
+
+.imdb5_WhatToWatch_list_bottom_bottom_left {
+  width: 72px;
+  height: 50px;
+  float: left;
+}
+
+.imdb5_WhatToWatch_list_bottom_bottom_left_trailer {
+  width: 59px;
+  height: 18px;
+  float: right;
+  line-height: 18px;
+  margin: 12px auto;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.imdb5_WhatToWatch_list_bottom_bottom_left_trailer:hover {
+  border-radius: 10%;
+  border: 1px solid rgb(53, 52, 52);
+  border-width: 6px;
+  background-color: rgb(53, 52, 52);
+}
+
+.imdb5_WhatToWatch_list_bottom_bottom_right {
+  margin-left: 127px;
+  margin-top: 23px;
+  height: 48px;
+  width: 48px;
+}
+
+.imdb5_WhatToWatch_list_bottom_bottom_right_information {
+  width: 25px;
+  height: 25px;
+  margin: 8px 8px;
+  line-height: 24px;
+}
+
+.imdb5_WhatToWatch_list_bottom_bottom_right_information:hover {
+  border-radius: 50%;
+  background-color: rgb(53, 52, 52);
+  padding: 5px;
+}
+
+/*imdb看什么结束*/
+
+/*imdb COPYRIGHT*/
+.imdb6_copyright {
+  margin-top: 200px;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(26, 26, 26);
+  font-size: 12px;
+}
+
+.imdb6_copyright_right {
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}
