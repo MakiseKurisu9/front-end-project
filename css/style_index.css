@@ -27,77 +27,105 @@ body {
 }
 
 .imdb1_up_select {
-  width: 1502px;
+  width: 1530px;
   height: 46px;
   float: right;
 }
 
-.imdb1_up_select_character {
-  line-height: 46px;
+.imdb1_up_select_border {
+  margin-top: 10px;
+  margin-left: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  width: 80px;
+  height: 35px;
+  border-radius: 10px;
+  transition: border 0.3s ease;
+}
+
+.imdb1_up_select_border a {
   text-decoration: none;
-  color: black;
-}
-
-#Menu {
-  font-family: "Roboto, Helvetica, Arial, sans-serif";
-  font-size: 14px;
   color: white;
-  position: relative;
-  top: 3px;
-  left: 21px;
-  transition: border 0.3s ease;
+  font-size: 14px;
+  font-weight: 700;
 }
 
-#Menu:hover {
-  padding: 5px;
-  border-radius: 10%;
+.imdb1_up_select_border:hover {
   background-color: rgb(31, 31, 31);
+  border-radius: 10px;
 }
 
-.imdb1_up_select_option_other {
-  transition: border 0.3s ease;
-}
-
-.imdb1_up_select_option_other:hover {
-  border-radius: 10%;
-  border: 3px solid rgb(31, 31, 31);
-  border-width: 6px;
-  background-color: rgb(31, 31, 31);
+.imdb1_up_input_border {
+  margin-left: 50px;
+  margin-top: -38px;
 }
 
 #search {
   position: relative;
   background-color: white;
-  left: -33px;
+  left: -30px;
   top: 8px;
   width: 24px;
   height: 24px;
 }
 
 .imdb1_up_select_search {
-  width: 720px;
+  width: 670px;
   height: 30px;
   margin-left: 60px;
+  border-radius: 5px;
 }
 
 .imdb1_up_select_search:focus {
   outline: none;
-  border-radius: 10px 10px;
+  border-radius: 5px;
 }
 
 .imdb1_up_select_option {
   position: relative;
-  left: -73px;
+  left: -145px;
+  top: -35px;
   float: right;
   width: 600px;
-  height: 31px;
+  height: 40px;
+}
+
+.imdb1_up_select_option_other_border {
+  width: 84px;
+  height: 36px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.imdb1_up_select_option_other_border:hover {
+  background-color: rgb(31, 31, 31);
+  border-radius: 10px;
+}
+
+.imdb1_up_select_option_other_border1 {
+  width: 125px;
+  height: 36px;
+  margin-left: 5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.imdb1_up_select_option_other_border1:hover {
+  background-color: rgb(31, 31, 31);
+  border-radius: 10px;
 }
 
 .imdb1_up_select_option ul li {
   list-style: none; /*eliminate dot*/
   float: left;
-  margin-left: 25px;
-  line-height: 46px;
+  margin-left: 8px;
+  line-height: 36px;
   text-decoration: none;
   color: white;
 }
@@ -108,15 +136,16 @@ body {
 
 .imdb1_up_select_option img {
   position: relative;
-  top: 4px;
-  right: -22px;
-  width: 20px;
-  height: 20px;
+  top: 5px;
+  right: -1px;
+  width: 25px;
+  height: 25px;
 }
 
 .imdb1_up_select_option ul li a {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 20px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
   color: white;
   text-decoration: none;
 }
@@ -136,8 +165,7 @@ body {
   top: 75px;
   font-size: 26px;
   color: rgb(245, 197, 24);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   left: 330px;
 }
 
@@ -220,8 +248,7 @@ body {
   font-size: 24px;
   color: rgb(245, 197, 24);
   padding: 4px 0px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
 .imdb2_forecast_right_RightPicture {
@@ -278,8 +305,7 @@ body {
 }
 
 .imdb3_today_title {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   margin-left: 336px;
   font-size: 40px;
   color: yellow;
@@ -299,7 +325,7 @@ body {
 }
 
 .imdb3_today_description {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   width: 815px;
   margin-top: 16px;
   margin-left: 337px;
@@ -328,7 +354,7 @@ body {
 .imdb3_today_description_left_link {
   position: relative;
   top: 37px;
-  left: -170px;
+  left: -176px;
   color: #5799ef;
   text-decoration: none;
 }
@@ -336,7 +362,7 @@ body {
 .imdb3_today_description_right_link {
   position: relative;
   color: #5799ef;
-  left: 239px;
+  left: 230px;
   top: 19px;
   text-decoration: none;
 }
@@ -374,6 +400,8 @@ body {
 
 .imdb4_2023_list {
   margin: 24px auto;
+  position: relative;
+  left: -10px;
   width: 1233px;
   height: 225px;
 }
@@ -440,7 +468,7 @@ body {
 
 .imdb5_WhatToWatch_recommendations1 {
   margin-top: -30px;
-  width: 260px;
+  width: 250px;
   height: 30px;
   display: flex;
   align-items: center;
@@ -550,7 +578,7 @@ body {
 }
 
 .mask p {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   overflow: hidden;
   width: 100%;
   font-size: 14px;
@@ -633,7 +661,7 @@ body {
 
 .imdb5_WhatToWatch_list_bottom_watchlist1:hover {
   color: #5799ef;
-  border-radius: 5px;
+  border-radius: 8%;
   border: 4px solid rgb(58, 57, 57);
   border-width: 9px;
   background-color: rgb(58, 57, 57);
@@ -706,7 +734,7 @@ body {
 }
 
 .imdb6_copyright_right {
-  line-height: 50px;
+  line-height: 25px;
   text-align: center;
   color: white;
 }

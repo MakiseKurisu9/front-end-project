@@ -7,154 +7,662 @@
     <link rel="stylesheet" href="css/style_blog.css" />
   </head>
   <body>
-  <!--imdb导航栏开始-->
-  <nav class="imdb1_up">
+    <!--imdb导航栏开始-->
+    <nav class="imdb1_up">
       <a href="index.html">
-        <img src="imgs/logo.png" class="home" href=""></img>
+        <img src="imgs/logo.png" class="home" href="" />
       </a>
       <div class="imdb1_up_select">
-        <a class="imdb1_up_select_character" id="Menu" href="">Menu</a>
-        <input class="imdb1_up_select_character imdb1_up_select_search" placeholder="Search IMDb">
-        <a href=""><img src="imgs/search.png"  id="search"></a>
+        <div class="imdb1_up_select_border"><a href="">Menu</a></div>
+        <div class="imdb1_up_input_border">
+          <input
+            class="imdb1_up_select_character imdb1_up_select_search"
+            placeholder="Search IMDb"
+          />
+          <a href=""><img src="imgs/search.png" id="search" /></a>
+        </div>
         <div class="imdb1_up_select_option">
           <ul>
-            <li><a href="" id="imdb1_up_select_option_vip" class="imdb1_up_select_option_other">IMDbPro</a></li>
-            <li>I</li>
-            <li><img src="imgs/checklist.png"></li>
-            <li><a href="" class="imdb1_up_select_option_other">WatchList</a></li>
-            <li><a href="loginIn.html" class="imdb1_up_select_option_other">Sign In</a></li>
-            <li><a href="" class="imdb1_up_select_option_other">EN</a></li>
+            <li>
+              <div class="imdb1_up_select_option_other_border">
+                <a
+                  href=""
+                  id="imdb1_up_select_option_vip"
+                  class="imdb1_up_select_option_other"
+                  >IMDbPro</a
+                >
+              </div>
+            </li>
+
+            <li>
+              <div class="imdb1_up_select_option_other_border1">
+                <a href="" class="imdb1_up_select_option_other"
+                  ><img src="imgs/checklist.png" />WatchList</a
+                >
+              </div>
+            </li>
+            <li>
+              <div class="imdb1_up_select_option_other_border">
+                <a href="loginIn.html" class="imdb1_up_select_option_other"
+                  >Sign In</a
+                >
+              </div>
+            </li>
+            <li>
+              <div class="imdb1_up_select_option_other_border">
+                <a href="" class="imdb1_up_select_option_other">EN</a>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
-  </nav>
-  <!--imdb导航栏结束-->
+    </nav>
+    <!--imdb导航栏结束-->
 
-<div class="blog1_up">
-    <div class="blog1_up_left">
-        <svg viewBox="0 0 604 268" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Best of 2023</title><path d="M93.8802 66.26C93.8802 84.11 81.4502 94.03 56.8502 94.03H5.41016V1.45996H56.5902C81.5802 1.45996 92.5602 10.72 92.5602 25C92.5602 36.11 86.8702 41.66 78.5402 45.76C87.2702 49.07 93.8802 54.49 93.8802 66.26ZM57.2502 31.22C57.2502 26.99 54.6002 24.74 49.7102 24.74H41.9102V37.7H49.7102C54.6002 37.7 57.2502 35.45 57.2502 31.22ZM57.2502 64.28C57.2502 60.05 54.6002 57.8 49.7102 57.8H41.9102V70.76H49.7102C54.6002 70.76 57.2502 68.51 57.2502 64.28Z" fill="white"></path><path d="M180.24 94.03H100.36V1.45996H179.97V27.12H136.72V35.05H167.67V60.31H136.72V68.38H180.23V94.04L180.24 94.03Z" fill="white"></path><path d="M270.83 63.74C270.83 87.94 251.79 95.48 228.38 95.48C212.25 95.48 197.17 92.31 184.08 87.02L193.73 60.97C208.28 66.52 220.18 68.51 227.59 68.51C232.48 68.51 233.41 67.72 233.41 66.39C233.41 65.33 233.01 64.54 222.3 61.89C196.51 55.54 186.86 47.74 186.86 31.74C186.86 7.54 205.77 0 229.58 0C245.19 0 257.75 3.57 269.92 8.99L259.6 34.78C249.15 29.75 238.31 26.98 229.45 26.98C225.09 26.98 224.29 27.91 224.29 29.1C224.29 30.29 224.29 31.22 234.08 33.6C258.81 39.55 270.84 47.22 270.84 63.75L270.83 63.74Z" fill="white"></path><path d="M357.72 31.08H334.44V94.03H296.35V31.08H273.07V1.45996H357.71V31.08H357.72Z" fill="white"></path><path d="M504.52 47.74C504.52 81.73 483.36 95.48 457.18 95.48C431 95.48 409.84 81.73 409.84 47.74C409.84 13.75 430.99 0 457.17 0C483.35 0 504.51 13.75 504.51 47.74H504.52ZM467.49 47.74C467.49 30.95 462.6 27.11 457.17 27.11C451.74 27.11 446.86 30.94 446.86 47.74C446.86 64.54 451.75 68.37 457.17 68.37C462.59 68.37 467.49 64.54 467.49 47.74Z" fill="white"></path><path d="M592.34 29.76H550.29V38.36H580.18V65.74H550.29V94.04H512.73V1.45996H592.34V29.76Z" fill="white"></path><path d="M149.52 265.32H1.26007C2.85007 204.83 29.23 179.37 78.8 161.63C87.67 158.45 89.72 157.31 89.72 154.58C89.72 151.85 88.3501 150.49 80.4001 150.49C64.4801 150.49 43.3401 157.09 24.4601 168.45L0.810059 126.15C26.9601 111.14 49.7001 103.64 79.2601 103.64C126.78 103.64 148.39 121.37 148.39 150.03C148.39 176.41 134.52 188.91 101.32 203.24C85.6301 209.84 79.04 213.7 72.67 219.61H149.53V265.32H149.52Z" fill="white"></path><path d="M451.22 265.32H302.96C304.55 204.83 330.93 179.37 380.5 161.63C389.37 158.45 391.42 157.31 391.42 154.58C391.42 151.85 390.05 150.49 382.1 150.49C366.18 150.49 345.04 157.09 326.16 168.45L302.51 126.15C328.66 111.14 351.4 103.64 380.96 103.64C428.48 103.64 450.09 121.37 450.09 150.03C450.09 176.41 436.22 188.91 403.02 203.24C387.33 209.84 380.74 213.7 374.37 219.61H451.23V265.32H451.22Z" fill="white"></path><path d="M603.16 215.98C603.16 251.22 576.1 267.82 530.85 267.82C499.24 267.82 474.46 262.36 451.95 246.9L476.96 207.33C492.2 216.42 508.57 221.2 524.94 221.2C539.49 221.2 545.86 218.7 545.86 213.02C545.86 207.34 541.08 205.74 530.4 205.74H499.47V163.9H525.17C535.63 163.9 539.04 161.86 539.04 156.85C539.04 152.3 533.81 150.03 523.58 150.03C509.48 150.03 495.84 153.21 479.69 161.85L454.9 124.33C477.18 110.46 498.1 103.64 528.12 103.64C574.28 103.64 598.61 117.74 598.61 147.53C598.61 163.22 590.65 173.45 576.33 179.59C592.7 185.73 603.16 195.51 603.16 215.97V215.98Z" fill="white"></path><path d="M231.08 265.26C276.047 265.26 312.5 228.807 312.5 183.84C312.5 138.873 276.047 102.42 231.08 102.42C186.113 102.42 149.66 138.873 149.66 183.84C149.66 228.807 186.113 265.26 231.08 265.26Z" fill="#FF00EA"></path><path d="M245.13 251.67C282.52 251.67 312.83 221.36 312.83 183.97C312.83 146.58 282.52 116.27 245.13 116.27C207.741 116.27 177.43 146.58 177.43 183.97C177.43 221.36 207.741 251.67 245.13 251.67Z" fill="white"></path></svg>
-    </div>
-    <div class="blog1_up_right">
+    <div class="blog1_up">
+      <div class="blog1_up_left">
+        <svg
+          viewBox="0 0 604 268"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>Best of 2023</title>
+          <path
+            d="M93.8802 66.26C93.8802 84.11 81.4502 94.03 56.8502 94.03H5.41016V1.45996H56.5902C81.5802 1.45996 92.5602 10.72 92.5602 25C92.5602 36.11 86.8702 41.66 78.5402 45.76C87.2702 49.07 93.8802 54.49 93.8802 66.26ZM57.2502 31.22C57.2502 26.99 54.6002 24.74 49.7102 24.74H41.9102V37.7H49.7102C54.6002 37.7 57.2502 35.45 57.2502 31.22ZM57.2502 64.28C57.2502 60.05 54.6002 57.8 49.7102 57.8H41.9102V70.76H49.7102C54.6002 70.76 57.2502 68.51 57.2502 64.28Z"
+            fill="white"
+          ></path>
+          <path
+            d="M180.24 94.03H100.36V1.45996H179.97V27.12H136.72V35.05H167.67V60.31H136.72V68.38H180.23V94.04L180.24 94.03Z"
+            fill="white"
+          ></path>
+          <path
+            d="M270.83 63.74C270.83 87.94 251.79 95.48 228.38 95.48C212.25 95.48 197.17 92.31 184.08 87.02L193.73 60.97C208.28 66.52 220.18 68.51 227.59 68.51C232.48 68.51 233.41 67.72 233.41 66.39C233.41 65.33 233.01 64.54 222.3 61.89C196.51 55.54 186.86 47.74 186.86 31.74C186.86 7.54 205.77 0 229.58 0C245.19 0 257.75 3.57 269.92 8.99L259.6 34.78C249.15 29.75 238.31 26.98 229.45 26.98C225.09 26.98 224.29 27.91 224.29 29.1C224.29 30.29 224.29 31.22 234.08 33.6C258.81 39.55 270.84 47.22 270.84 63.75L270.83 63.74Z"
+            fill="white"
+          ></path>
+          <path
+            d="M357.72 31.08H334.44V94.03H296.35V31.08H273.07V1.45996H357.71V31.08H357.72Z"
+            fill="white"
+          ></path>
+          <path
+            d="M504.52 47.74C504.52 81.73 483.36 95.48 457.18 95.48C431 95.48 409.84 81.73 409.84 47.74C409.84 13.75 430.99 0 457.17 0C483.35 0 504.51 13.75 504.51 47.74H504.52ZM467.49 47.74C467.49 30.95 462.6 27.11 457.17 27.11C451.74 27.11 446.86 30.94 446.86 47.74C446.86 64.54 451.75 68.37 457.17 68.37C462.59 68.37 467.49 64.54 467.49 47.74Z"
+            fill="white"
+          ></path>
+          <path
+            d="M592.34 29.76H550.29V38.36H580.18V65.74H550.29V94.04H512.73V1.45996H592.34V29.76Z"
+            fill="white"
+          ></path>
+          <path
+            d="M149.52 265.32H1.26007C2.85007 204.83 29.23 179.37 78.8 161.63C87.67 158.45 89.72 157.31 89.72 154.58C89.72 151.85 88.3501 150.49 80.4001 150.49C64.4801 150.49 43.3401 157.09 24.4601 168.45L0.810059 126.15C26.9601 111.14 49.7001 103.64 79.2601 103.64C126.78 103.64 148.39 121.37 148.39 150.03C148.39 176.41 134.52 188.91 101.32 203.24C85.6301 209.84 79.04 213.7 72.67 219.61H149.53V265.32H149.52Z"
+            fill="white"
+          ></path>
+          <path
+            d="M451.22 265.32H302.96C304.55 204.83 330.93 179.37 380.5 161.63C389.37 158.45 391.42 157.31 391.42 154.58C391.42 151.85 390.05 150.49 382.1 150.49C366.18 150.49 345.04 157.09 326.16 168.45L302.51 126.15C328.66 111.14 351.4 103.64 380.96 103.64C428.48 103.64 450.09 121.37 450.09 150.03C450.09 176.41 436.22 188.91 403.02 203.24C387.33 209.84 380.74 213.7 374.37 219.61H451.23V265.32H451.22Z"
+            fill="white"
+          ></path>
+          <path
+            d="M603.16 215.98C603.16 251.22 576.1 267.82 530.85 267.82C499.24 267.82 474.46 262.36 451.95 246.9L476.96 207.33C492.2 216.42 508.57 221.2 524.94 221.2C539.49 221.2 545.86 218.7 545.86 213.02C545.86 207.34 541.08 205.74 530.4 205.74H499.47V163.9H525.17C535.63 163.9 539.04 161.86 539.04 156.85C539.04 152.3 533.81 150.03 523.58 150.03C509.48 150.03 495.84 153.21 479.69 161.85L454.9 124.33C477.18 110.46 498.1 103.64 528.12 103.64C574.28 103.64 598.61 117.74 598.61 147.53C598.61 163.22 590.65 173.45 576.33 179.59C592.7 185.73 603.16 195.51 603.16 215.97V215.98Z"
+            fill="white"
+          ></path>
+          <path
+            d="M231.08 265.26C276.047 265.26 312.5 228.807 312.5 183.84C312.5 138.873 276.047 102.42 231.08 102.42C186.113 102.42 149.66 138.873 149.66 183.84C149.66 228.807 186.113 265.26 231.08 265.26Z"
+            fill="#FF00EA"
+          ></path>
+          <path
+            d="M245.13 251.67C282.52 251.67 312.83 221.36 312.83 183.97C312.83 146.58 282.52 116.27 245.13 116.27C207.741 116.27 177.43 146.58 177.43 183.97C177.43 221.36 207.741 251.67 245.13 251.67Z"
+            fill="white"
+          ></path>
+        </svg>
+      </div>
+      <div class="blog1_up_right">
         <div class="blog1_up_right_text">Sponsored by</div>
         <div class="blog1_up_right_main_text">Disney+</div>
+      </div>
     </div>
-</div>
 
-<div class="blog2_title">
-    <svg  width="717" height="211" viewBox="0 0 717 211" fill="none" xmlns="http://www.w3.org/2000/svg" class="blog2_title_main"><g clip-path="url(#clip0_546_460)"><path d="M73.03 26.81H52.95V81.12H20.08V26.81H0V1.26001H73.03V26.82V26.81Z" fill="white"></path><path d="M154.04 41.19C154.04 70.52 135.78 82.38 113.19 82.38C90.6001 82.38 72.3401 70.51 72.3401 41.19C72.3401 11.87 90.6001 0 113.19 0C135.78 0 154.04 11.87 154.04 41.19ZM122.09 41.19C122.09 26.7 117.87 23.39 113.19 23.39C108.51 23.39 104.29 26.7 104.29 41.19C104.29 55.68 108.51 58.99 113.19 58.99C117.87 58.99 122.09 55.68 122.09 41.19Z" fill="white"></path><path d="M231.18 30.81C231.18 51.58 217.37 60.36 194.1 60.36H190.22V81.13H158.27V1.26001H194.1C217.38 1.26001 231.18 10.05 231.18 30.81ZM201.28 30.81C201.28 25.9 198.31 23.51 192.61 23.51H189.64V38.12H192.61C198.32 38.12 201.28 35.72 201.28 30.82V30.81Z" fill="white"></path><path d="M361.6 81.13H332.39V50.44C332.39 48.27 332.62 43.82 332.73 40.86C331.7 46.45 329.65 54.44 327.71 60.83L321.66 81.14H311.39L305.34 60.83C303.4 54.44 301.35 46.45 300.32 40.86C300.43 43.83 300.66 48.28 300.66 50.44V81.13H271.45V1.26001H307.16L311.38 15.29C314 24.08 316.17 31.15 316.63 36.86C317.09 31.15 319.25 23.97 321.88 15.29L326.1 1.26001H361.59V81.13H361.6Z" fill="white"></path><path d="M447.52 41.19C447.52 70.52 429.26 82.38 406.67 82.38C384.08 82.38 365.82 70.51 365.82 41.19C365.82 11.87 384.08 0 406.67 0C429.26 0 447.52 11.87 447.52 41.19ZM415.57 41.19C415.57 26.7 411.35 23.39 406.67 23.39C401.99 23.39 397.77 26.7 397.77 41.19C397.77 55.68 401.99 58.99 406.67 58.99C411.35 58.99 415.57 55.68 415.57 41.19Z" fill="white"></path><path d="M526.48 1.26001L501.15 81.13H468.29L442.96 1.26001H475.02L479.58 20.66C482.32 32.18 484.26 42.45 484.83 50.44C485.4 42.45 487.34 32.18 490.08 20.66L494.64 1.26001H526.47H526.48Z" fill="white"></path><path d="M561.51 81.13H528.65V1.26001H561.51V81.13Z" fill="white"></path><path d="M636.25 81.13H567.33V1.26001H636.02V23.4H598.71V30.25H625.41V52.04H598.71V59H636.25V81.14V81.13Z" fill="white"></path><path d="M711.56 55C711.56 75.88 695.13 82.38 674.93 82.38C661.01 82.38 648 79.64 636.7 75.08L645.03 52.6C657.58 57.39 667.85 59.1 674.24 59.1C678.46 59.1 679.26 58.42 679.26 57.27C679.26 56.36 678.92 55.67 669.68 53.39C647.43 47.91 639.1 41.18 639.1 27.37C639.1 6.48998 655.42 -0.0200195 675.96 -0.0200195C689.42 -0.0200195 700.26 3.05998 710.76 7.73998L701.86 29.99C692.85 25.65 683.49 23.26 675.84 23.26C672.07 23.26 671.39 24.06 671.39 25.09C671.39 26.12 671.39 26.92 679.83 28.97C701.17 34.1 711.55 40.72 711.55 54.99L711.56 55Z" fill="white"></path><path d="M119.54 151.25C119.54 193.56 93.1999 210.68 60.5999 210.68C27.9999 210.68 1.66992 193.56 1.66992 151.25C1.66992 108.94 28.0099 91.8199 60.6099 91.8199C93.2099 91.8199 119.55 108.94 119.55 151.25H119.54ZM73.4399 151.25C73.4399 130.34 67.3499 125.57 60.5999 125.57C53.8499 125.57 47.7599 130.34 47.7599 151.25C47.7599 172.16 53.8499 176.93 60.5999 176.93C67.3499 176.93 73.4399 172.16 73.4399 151.25Z" fill="white"></path><path d="M224.74 128.86H172.39V139.56H209.6V173.64H172.39V208.87H125.64V93.6299H224.75V128.86H224.74Z" fill="white"></path><path d="M388.04 208.87H280.7C281.85 165.08 300.95 146.64 336.84 133.8C343.26 131.5 344.74 130.67 344.74 128.7C344.74 126.73 343.75 125.74 337.99 125.74C326.47 125.74 311.16 130.52 297.49 138.75L280.37 108.13C299.3 97.26 315.76 91.83 337.17 91.83C371.58 91.83 387.22 104.67 387.22 125.41C387.22 144.51 377.18 153.56 353.14 163.93C341.78 168.71 337.01 171.5 332.4 175.78H388.04V208.87Z" fill="white"></path><path d="M502.62 151.25C502.62 193.56 475.46 210.68 445.82 210.68C416.18 210.68 389.02 193.56 389.02 151.25C389.02 108.94 416.18 91.8199 445.82 91.8199C475.46 91.8199 502.62 108.94 502.62 151.25ZM458.5 151.25C458.5 129.68 452.41 125.24 445.82 125.24C439.23 125.24 433.14 129.69 433.14 151.25C433.14 172.81 439.23 177.26 445.82 177.26C452.41 177.26 458.5 172.81 458.5 151.25Z" fill="white"></path><path d="M606.47 208.87H499.13C500.28 165.08 519.38 146.64 555.27 133.8C561.69 131.5 563.17 130.67 563.17 128.7C563.17 126.73 562.18 125.74 556.42 125.74C544.9 125.74 529.59 130.52 515.92 138.75L498.8 108.13C517.73 97.26 534.19 91.83 555.6 91.83C590.01 91.83 605.65 104.67 605.65 125.41C605.65 144.51 595.61 153.56 571.57 163.93C560.21 168.71 555.44 171.5 550.83 175.78H606.47V208.87Z" fill="white"></path><path d="M716.47 173.15C716.47 198.67 696.88 210.68 664.12 210.68C641.24 210.68 623.29 206.73 606.99 195.54L625.1 166.9C636.13 173.48 647.98 176.94 659.84 176.94C670.38 176.94 674.99 175.13 674.99 171.01C674.99 166.89 671.53 165.74 663.8 165.74H641.41V135.45H660.01C667.58 135.45 670.05 133.97 670.05 130.35C670.05 127.06 666.26 125.41 658.86 125.41C648.65 125.41 638.78 127.71 627.09 133.97L609.15 106.81C625.28 96.77 640.43 91.83 662.16 91.83C695.58 91.83 713.19 102.04 713.19 123.6C713.19 134.96 707.43 142.37 697.06 146.81C708.91 151.26 716.49 158.34 716.49 173.15H716.47Z" fill="white"></path></g><defs><clipPath id="clip0_546_460"><rect width="716.47" height="210.68" fill="white"></rect></clipPath></defs></svg>
-    <div class="blog2_title_line"></div>
-        <svg width="450" height="52" viewBox="0 0 450 52" fill="none" xmlns="http://www.w3.org/2000/svg" class="blog2_title_text"><path d="M46.944 0.791998H61.2L49.176 51.192H36.288L33.984 40.248C32.328 32.472 30.816 23.04 30.528 19.368C30.24 23.04 28.728 32.472 27.072 40.248L24.768 51.192H12.024L0 0.791998H14.4L15.768 9.216C16.92 16.344 18.288 25.128 18.792 31.104C19.368 25.2 21.096 16.488 22.536 9.288L24.264 0.791998H37.08L38.808 9.288C40.248 16.488 41.976 25.2 42.552 31.104C43.056 25.128 44.424 16.344 45.576 9.216L46.944 0.791998Z" fill="white"></path><path d="M88.938 0C102.618 0 112.194 9.144 112.194 25.92C112.194 42.696 102.474 51.984 88.794 51.984C75.114 51.984 65.538 42.84 65.538 26.064C65.538 9.288 75.258 0 88.938 0ZM88.938 39.816C94.554 39.816 97.722 35.136 97.722 26.064C97.722 16.992 94.41 12.168 88.794 12.168C83.178 12.168 80.01 16.848 80.01 25.92C80.01 34.992 83.322 39.816 88.938 39.816Z" fill="white"></path><path d="M142.32 23.184C146.856 23.184 148.656 21.168 148.656 17.568C148.656 14.4 146.928 12.168 142.536 12.168H134.112V23.184H142.32ZM153.48 31.968L163.56 51.192H147.936L139.728 34.2H134.112V51.192H120.36V0.791998H142.896C154.704 0.791998 162.552 5.256 162.552 17.208C162.552 24.768 159.024 29.448 153.48 31.968Z" fill="white"></path><path d="M208.331 39.024V51.192H171.899V0.791998H186.011V39.024H208.331Z" fill="white"></path><path d="M233.836 0.791998C249.676 0.791998 259.756 6.768 259.756 25.704C259.756 44.64 250.396 51.192 232.54 51.192H216.196V0.791998H233.836ZM233.332 39.24C242.044 39.24 245.428 35.928 245.428 25.92C245.428 16.632 242.476 12.744 233.764 12.744H230.308V39.24H233.332Z" fill="white"></path><path d="M311.178 0.791998H325.434L313.41 51.192H300.522L298.218 40.248C296.562 32.472 295.05 23.04 294.762 19.368C294.474 23.04 292.962 32.472 291.306 40.248L289.002 51.192H276.258L264.234 0.791998H278.634L280.002 9.216C281.154 16.344 282.522 25.128 283.026 31.104C283.602 25.2 285.33 16.488 286.77 9.288L288.498 0.791998H301.314L303.042 9.288C304.482 16.488 306.21 25.2 306.786 31.104C307.29 25.128 308.658 16.344 309.81 9.216L311.178 0.791998Z" fill="white"></path><path d="M347.883 0.791998V51.192H333.627V0.791998H347.883Z" fill="white"></path><path d="M376.078 0.791998C391.918 0.791998 401.999 6.768 401.999 25.704C401.999 44.64 392.639 51.192 374.783 51.192H358.439V0.791998H376.078ZM375.574 39.24C384.286 39.24 387.671 35.928 387.671 25.92C387.671 16.632 384.719 12.744 376.007 12.744H372.551V39.24H375.574Z" fill="white"></path><path d="M449.495 39.456V51.192H410.399V0.791998H448.991V12.528H424.223V19.224H439.127V30.816H424.223V39.456H449.495Z" fill="white"></path></svg>
-</div>
-
-<div class="blog3_first">
-    <p class="blog3_first_text">
-        The end of 2023 is upon us, and to celebrate a blockbuster year at the movies, we present the top 10 movies on IMDb worldwide, and across 10 different countries across the globe. Explore the lists to see which sequel got the most love, which animated film made it on nine countries’ top 10 list, and how big of an impact Barbenheimer had worldwide.
-    </p>
-</div>
-
-<div class="blog4_line">
-</div>
-
-<div class="blog5_blog">
-    <img src="imgs2/344.jpg" class="blog5_blog_img">
-</div>
-
-<div class="blog6_describption">
-    <div class="blog6_describption_top">
-        <p class="blog6_describption_top_text">Top Movies of 2023 | Worldwide</p>
+    <div class="blog2_title">
+      <svg
+        width="717"
+        height="211"
+        viewBox="0 0 717 211"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="blog2_title_main"
+      >
+        <g clip-path="url(#clip0_546_460)">
+          <path
+            d="M73.03 26.81H52.95V81.12H20.08V26.81H0V1.26001H73.03V26.82V26.81Z"
+            fill="white"
+          ></path>
+          <path
+            d="M154.04 41.19C154.04 70.52 135.78 82.38 113.19 82.38C90.6001 82.38 72.3401 70.51 72.3401 41.19C72.3401 11.87 90.6001 0 113.19 0C135.78 0 154.04 11.87 154.04 41.19ZM122.09 41.19C122.09 26.7 117.87 23.39 113.19 23.39C108.51 23.39 104.29 26.7 104.29 41.19C104.29 55.68 108.51 58.99 113.19 58.99C117.87 58.99 122.09 55.68 122.09 41.19Z"
+            fill="white"
+          ></path>
+          <path
+            d="M231.18 30.81C231.18 51.58 217.37 60.36 194.1 60.36H190.22V81.13H158.27V1.26001H194.1C217.38 1.26001 231.18 10.05 231.18 30.81ZM201.28 30.81C201.28 25.9 198.31 23.51 192.61 23.51H189.64V38.12H192.61C198.32 38.12 201.28 35.72 201.28 30.82V30.81Z"
+            fill="white"
+          ></path>
+          <path
+            d="M361.6 81.13H332.39V50.44C332.39 48.27 332.62 43.82 332.73 40.86C331.7 46.45 329.65 54.44 327.71 60.83L321.66 81.14H311.39L305.34 60.83C303.4 54.44 301.35 46.45 300.32 40.86C300.43 43.83 300.66 48.28 300.66 50.44V81.13H271.45V1.26001H307.16L311.38 15.29C314 24.08 316.17 31.15 316.63 36.86C317.09 31.15 319.25 23.97 321.88 15.29L326.1 1.26001H361.59V81.13H361.6Z"
+            fill="white"
+          ></path>
+          <path
+            d="M447.52 41.19C447.52 70.52 429.26 82.38 406.67 82.38C384.08 82.38 365.82 70.51 365.82 41.19C365.82 11.87 384.08 0 406.67 0C429.26 0 447.52 11.87 447.52 41.19ZM415.57 41.19C415.57 26.7 411.35 23.39 406.67 23.39C401.99 23.39 397.77 26.7 397.77 41.19C397.77 55.68 401.99 58.99 406.67 58.99C411.35 58.99 415.57 55.68 415.57 41.19Z"
+            fill="white"
+          ></path>
+          <path
+            d="M526.48 1.26001L501.15 81.13H468.29L442.96 1.26001H475.02L479.58 20.66C482.32 32.18 484.26 42.45 484.83 50.44C485.4 42.45 487.34 32.18 490.08 20.66L494.64 1.26001H526.47H526.48Z"
+            fill="white"
+          ></path>
+          <path
+            d="M561.51 81.13H528.65V1.26001H561.51V81.13Z"
+            fill="white"
+          ></path>
+          <path
+            d="M636.25 81.13H567.33V1.26001H636.02V23.4H598.71V30.25H625.41V52.04H598.71V59H636.25V81.14V81.13Z"
+            fill="white"
+          ></path>
+          <path
+            d="M711.56 55C711.56 75.88 695.13 82.38 674.93 82.38C661.01 82.38 648 79.64 636.7 75.08L645.03 52.6C657.58 57.39 667.85 59.1 674.24 59.1C678.46 59.1 679.26 58.42 679.26 57.27C679.26 56.36 678.92 55.67 669.68 53.39C647.43 47.91 639.1 41.18 639.1 27.37C639.1 6.48998 655.42 -0.0200195 675.96 -0.0200195C689.42 -0.0200195 700.26 3.05998 710.76 7.73998L701.86 29.99C692.85 25.65 683.49 23.26 675.84 23.26C672.07 23.26 671.39 24.06 671.39 25.09C671.39 26.12 671.39 26.92 679.83 28.97C701.17 34.1 711.55 40.72 711.55 54.99L711.56 55Z"
+            fill="white"
+          ></path>
+          <path
+            d="M119.54 151.25C119.54 193.56 93.1999 210.68 60.5999 210.68C27.9999 210.68 1.66992 193.56 1.66992 151.25C1.66992 108.94 28.0099 91.8199 60.6099 91.8199C93.2099 91.8199 119.55 108.94 119.55 151.25H119.54ZM73.4399 151.25C73.4399 130.34 67.3499 125.57 60.5999 125.57C53.8499 125.57 47.7599 130.34 47.7599 151.25C47.7599 172.16 53.8499 176.93 60.5999 176.93C67.3499 176.93 73.4399 172.16 73.4399 151.25Z"
+            fill="white"
+          ></path>
+          <path
+            d="M224.74 128.86H172.39V139.56H209.6V173.64H172.39V208.87H125.64V93.6299H224.75V128.86H224.74Z"
+            fill="white"
+          ></path>
+          <path
+            d="M388.04 208.87H280.7C281.85 165.08 300.95 146.64 336.84 133.8C343.26 131.5 344.74 130.67 344.74 128.7C344.74 126.73 343.75 125.74 337.99 125.74C326.47 125.74 311.16 130.52 297.49 138.75L280.37 108.13C299.3 97.26 315.76 91.83 337.17 91.83C371.58 91.83 387.22 104.67 387.22 125.41C387.22 144.51 377.18 153.56 353.14 163.93C341.78 168.71 337.01 171.5 332.4 175.78H388.04V208.87Z"
+            fill="white"
+          ></path>
+          <path
+            d="M502.62 151.25C502.62 193.56 475.46 210.68 445.82 210.68C416.18 210.68 389.02 193.56 389.02 151.25C389.02 108.94 416.18 91.8199 445.82 91.8199C475.46 91.8199 502.62 108.94 502.62 151.25ZM458.5 151.25C458.5 129.68 452.41 125.24 445.82 125.24C439.23 125.24 433.14 129.69 433.14 151.25C433.14 172.81 439.23 177.26 445.82 177.26C452.41 177.26 458.5 172.81 458.5 151.25Z"
+            fill="white"
+          ></path>
+          <path
+            d="M606.47 208.87H499.13C500.28 165.08 519.38 146.64 555.27 133.8C561.69 131.5 563.17 130.67 563.17 128.7C563.17 126.73 562.18 125.74 556.42 125.74C544.9 125.74 529.59 130.52 515.92 138.75L498.8 108.13C517.73 97.26 534.19 91.83 555.6 91.83C590.01 91.83 605.65 104.67 605.65 125.41C605.65 144.51 595.61 153.56 571.57 163.93C560.21 168.71 555.44 171.5 550.83 175.78H606.47V208.87Z"
+            fill="white"
+          ></path>
+          <path
+            d="M716.47 173.15C716.47 198.67 696.88 210.68 664.12 210.68C641.24 210.68 623.29 206.73 606.99 195.54L625.1 166.9C636.13 173.48 647.98 176.94 659.84 176.94C670.38 176.94 674.99 175.13 674.99 171.01C674.99 166.89 671.53 165.74 663.8 165.74H641.41V135.45H660.01C667.58 135.45 670.05 133.97 670.05 130.35C670.05 127.06 666.26 125.41 658.86 125.41C648.65 125.41 638.78 127.71 627.09 133.97L609.15 106.81C625.28 96.77 640.43 91.83 662.16 91.83C695.58 91.83 713.19 102.04 713.19 123.6C713.19 134.96 707.43 142.37 697.06 146.81C708.91 151.26 716.49 158.34 716.49 173.15H716.47Z"
+            fill="white"
+          ></path>
+        </g>
+        <defs>
+          <clipPath id="clip0_546_460">
+            <rect width="716.47" height="210.68" fill="white"></rect>
+          </clipPath>
+        </defs>
+      </svg>
+      <div class="blog2_title_line"></div>
+      <svg
+        width="450"
+        height="52"
+        viewBox="0 0 450 52"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="blog2_title_text"
+      >
+        <path
+          d="M46.944 0.791998H61.2L49.176 51.192H36.288L33.984 40.248C32.328 32.472 30.816 23.04 30.528 19.368C30.24 23.04 28.728 32.472 27.072 40.248L24.768 51.192H12.024L0 0.791998H14.4L15.768 9.216C16.92 16.344 18.288 25.128 18.792 31.104C19.368 25.2 21.096 16.488 22.536 9.288L24.264 0.791998H37.08L38.808 9.288C40.248 16.488 41.976 25.2 42.552 31.104C43.056 25.128 44.424 16.344 45.576 9.216L46.944 0.791998Z"
+          fill="white"
+        ></path>
+        <path
+          d="M88.938 0C102.618 0 112.194 9.144 112.194 25.92C112.194 42.696 102.474 51.984 88.794 51.984C75.114 51.984 65.538 42.84 65.538 26.064C65.538 9.288 75.258 0 88.938 0ZM88.938 39.816C94.554 39.816 97.722 35.136 97.722 26.064C97.722 16.992 94.41 12.168 88.794 12.168C83.178 12.168 80.01 16.848 80.01 25.92C80.01 34.992 83.322 39.816 88.938 39.816Z"
+          fill="white"
+        ></path>
+        <path
+          d="M142.32 23.184C146.856 23.184 148.656 21.168 148.656 17.568C148.656 14.4 146.928 12.168 142.536 12.168H134.112V23.184H142.32ZM153.48 31.968L163.56 51.192H147.936L139.728 34.2H134.112V51.192H120.36V0.791998H142.896C154.704 0.791998 162.552 5.256 162.552 17.208C162.552 24.768 159.024 29.448 153.48 31.968Z"
+          fill="white"
+        ></path>
+        <path
+          d="M208.331 39.024V51.192H171.899V0.791998H186.011V39.024H208.331Z"
+          fill="white"
+        ></path>
+        <path
+          d="M233.836 0.791998C249.676 0.791998 259.756 6.768 259.756 25.704C259.756 44.64 250.396 51.192 232.54 51.192H216.196V0.791998H233.836ZM233.332 39.24C242.044 39.24 245.428 35.928 245.428 25.92C245.428 16.632 242.476 12.744 233.764 12.744H230.308V39.24H233.332Z"
+          fill="white"
+        ></path>
+        <path
+          d="M311.178 0.791998H325.434L313.41 51.192H300.522L298.218 40.248C296.562 32.472 295.05 23.04 294.762 19.368C294.474 23.04 292.962 32.472 291.306 40.248L289.002 51.192H276.258L264.234 0.791998H278.634L280.002 9.216C281.154 16.344 282.522 25.128 283.026 31.104C283.602 25.2 285.33 16.488 286.77 9.288L288.498 0.791998H301.314L303.042 9.288C304.482 16.488 306.21 25.2 306.786 31.104C307.29 25.128 308.658 16.344 309.81 9.216L311.178 0.791998Z"
+          fill="white"
+        ></path>
+        <path
+          d="M347.883 0.791998V51.192H333.627V0.791998H347.883Z"
+          fill="white"
+        ></path>
+        <path
+          d="M376.078 0.791998C391.918 0.791998 401.999 6.768 401.999 25.704C401.999 44.64 392.639 51.192 374.783 51.192H358.439V0.791998H376.078ZM375.574 39.24C384.286 39.24 387.671 35.928 387.671 25.92C387.671 16.632 384.719 12.744 376.007 12.744H372.551V39.24H375.574Z"
+          fill="white"
+        ></path>
+        <path
+          d="M449.495 39.456V51.192H410.399V0.791998H448.991V12.528H424.223V19.224H439.127V30.816H424.223V39.456H449.495Z"
+          fill="white"
+        ></path>
+      </svg>
     </div>
-    <div class="blog6_describption_mid">
+
+    <div class="blog3_first">
+      <p class="blog3_first_text">
+        The end of 2023 is upon us, and to celebrate a blockbuster year at the
+        movies, we present the top 10 movies on IMDb worldwide, and across 10
+        different countries across the globe. Explore the lists to see which
+        sequel got the most love, which animated film made it on nine countries’
+        top 10 list, and how big of an impact Barbenheimer had worldwide.
+      </p>
+    </div>
+
+    <div class="blog4_line"></div>
+
+    <div class="blog5_blog">
+      <img src="imgs2/344.jpg" class="blog5_blog_img" />
+    </div>
+
+    <div class="blog6_describption">
+      <div class="blog6_describption_top">
+        <p class="blog6_describption_top_text">
+          Top Movies of 2023 | Worldwide
+        </p>
+      </div>
+      <div class="blog6_describption_mid">
         <div class="blog6_describption_mid_left">
-            <a href=""><img src="imgs2/355.jpg" class="blog6_describption_mid_left_picture"></a>
+          <a href=""
+            ><img
+              src="imgs2/355.jpg"
+              class="blog6_describption_mid_left_picture"
+          /></a>
         </div>
         <div class="blog6_describption_mid_right">
-            <div class="blog6_describption_mid_right_title">
-                <a class="blog6_describption_mid_right_title_text" href="">Oppenheimer ></a>
-            </div>
-            <div class="blog6_describption_mid_right_rate">
-                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="blog6_describption_mid_right_rate_star" viewBox="0 0 24 24" fill="currentColor" role="presentation"><path d="M12 20.1l5.82 3.682c1.066.675 2.37-.322 2.09-1.584l-1.543-6.926 5.146-4.667c.94-.85.435-2.465-.799-2.567l-6.773-.602L13.29.89a1.38 1.38 0 0 0-2.581 0l-2.65 6.53-6.774.602C.052 8.126-.453 9.74.486 10.59l5.147 4.666-1.542 6.926c-.28 1.262 1.023 2.26 2.09 1.585L12 20.099z"></path></svg>
-                <p class="blog6_describption_mid_right_rate_number">8.4/10</p>
-            </div>
-            <div class="blog6_describption_mid_right_text">
-                <p class="blog6_describption_mid_right_maintext">Christopher Nolan’s historical biopic brought J. Robert Oppenheimer’s controversial career into subatomic focus on screens worldwide this summer — an explosive companion to Barbie during a history-making weekend at the box office. The countdown on Nolan’s grand-scale project started in 2021, and its anticipated debut snatched up $82.4 million domestically on opening weekend, remaining the top title on IMDb for a full month and securing the #1 overall spot for 2023. While it didn’t spark the same joyful fanaticism of its hot-pink counterpart, murmurs of Oppenheimer’s awards potential began when the credits rolled, with expected entries for Best Picture, Best Director, and several more categories at the 2024 Oscars. Its first major win? A spot in IMDb’s Top 250 Movies of all time, according to IMDb user ratings.</p>
-            </div>
-            <div class="blog6_describption_mid_right_feature">
-                <h3 class="blog6_describption_mid_right_feature_text">Featuring</h3>
-            </div>
-            <div class="blog6_describption_mid_right_actor">
-                <ul>
-                    <li><a href=""><img src="https://m.media-amazon.com/images/M/MV5BMDUxY2M1NTQtNzcwNC00ZDljLTk4YjctYzJjZGNiYTc0YTE1XkEyXkFqcGdeQXVyMTY5MDA5MDc3._V1_QL75_UX140_CR0,12,140,140_.jpg">
-                    <p>Cillian Murphy</p></a></li>
-                    <li><a href=""><img src="https://m.media-amazon.com/images/M/MV5BMTUxNDY4MTMzM15BMl5BanBnXkFtZTcwMjg5NzM2Ng@@._V1_QL75_UX280_CR0,40,280,280_.jpg">
-                    <p>Emily Blunt</p></a></li>
-                    <li><a href=""><img src="https://m.media-amazon.com/images/M/MV5BMTM0NzYzNDgxMl5BMl5BanBnXkFtZTcwMDg2MTMyMw@@._V1_QL75_UX140_CR0,1,140,140_.jpg">
-                    <p>Matt Damon</p></a>
-                    </li>
-                    <li><a href=""><img src="https://m.media-amazon.com/images/M/MV5BNzg1MTUyNDYxOF5BMl5BanBnXkFtZTgwNTQ4MTE2MjE@._V1_QL75_UX140_CR0,13,140,140_.jpg">
-                        <p>Robert Downey Jr.</p></a></li>
-                </ul>
-            </div>
+          <div class="blog6_describption_mid_right_title">
+            <a class="blog6_describption_mid_right_title_text" href=""
+              >Oppenheimer ></a
+            >
+          </div>
+          <div class="blog6_describption_mid_right_rate">
+            <svg
+              width="24"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              class="blog6_describption_mid_right_rate_star"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              role="presentation"
+            >
+              <path
+                d="M12 20.1l5.82 3.682c1.066.675 2.37-.322 2.09-1.584l-1.543-6.926 5.146-4.667c.94-.85.435-2.465-.799-2.567l-6.773-.602L13.29.89a1.38 1.38 0 0 0-2.581 0l-2.65 6.53-6.774.602C.052 8.126-.453 9.74.486 10.59l5.147 4.666-1.542 6.926c-.28 1.262 1.023 2.26 2.09 1.585L12 20.099z"
+              ></path>
+            </svg>
+            <p class="blog6_describption_mid_right_rate_number">8.4/10</p>
+          </div>
+          <div class="blog6_describption_mid_right_text">
+            <p class="blog6_describption_mid_right_maintext">
+              Christopher Nolan’s historical biopic brought J. Robert
+              Oppenheimer’s controversial career into subatomic focus on screens
+              worldwide this summer — an explosive companion to Barbie during a
+              history-making weekend at the box office. The countdown on Nolan’s
+              grand-scale project started in 2021, and its anticipated debut
+              snatched up $82.4 million domestically on opening weekend,
+              remaining the top title on IMDb for a full month and securing the
+              #1 overall spot for 2023. While it didn’t spark the same joyful
+              fanaticism of its hot-pink counterpart, murmurs of Oppenheimer’s
+              awards potential began when the credits rolled, with expected
+              entries for Best Picture, Best Director, and several more
+              categories at the 2024 Oscars. Its first major win? A spot in
+              IMDb’s Top 250 Movies of all time, according to IMDb user ratings.
+            </p>
+          </div>
+          <div class="blog6_describption_mid_right_feature">
+            <h3 class="blog6_describption_mid_right_feature_text">Featuring</h3>
+          </div>
+          <div class="blog6_describption_mid_right_actor">
+            <ul>
+              <li>
+                <a href=""
+                  ><img
+                    src="https://m.media-amazon.com/images/M/MV5BMDUxY2M1NTQtNzcwNC00ZDljLTk4YjctYzJjZGNiYTc0YTE1XkEyXkFqcGdeQXVyMTY5MDA5MDc3._V1_QL75_UX140_CR0,12,140,140_.jpg"
+                  />
+                  <p>Cillian Murphy</p></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="https://m.media-amazon.com/images/M/MV5BMTUxNDY4MTMzM15BMl5BanBnXkFtZTcwMjg5NzM2Ng@@._V1_QL75_UX280_CR0,40,280,280_.jpg"
+                  />
+                  <p>Emily Blunt</p></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="https://m.media-amazon.com/images/M/MV5BMTM0NzYzNDgxMl5BMl5BanBnXkFtZTcwMDg2MTMyMw@@._V1_QL75_UX140_CR0,1,140,140_.jpg"
+                  />
+                  <p>Matt Damon</p></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="https://m.media-amazon.com/images/M/MV5BNzg1MTUyNDYxOF5BMl5BanBnXkFtZTgwNTQ4MTE2MjE@._V1_QL75_UX140_CR0,13,140,140_.jpg"
+                  />
+                  <p>Robert Downey Jr.</p></a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
+    <div class="blog7_review">
+      <h1>THE WORLD WILL REMEMBER THIS DAY…..AND THIS MOVIE</h1>
+      <hr />
+      <p>
+        Director Christopher Nolan is an acclaimed film director that many,
+        including myself, have found to be exceptional in the execution of the
+        films that he directs. While he’s been around for quite some time,
+        developing several short films (both released unreleased), several first
+        noticed Nolan’s work as a director in his sophomore film Memento.
+        Released in 2000, Nolan’s Memento was a complex film of dueling
+        narratives story threads, which meet at the end of the film, producing
+        one whole and cohesive narrative storyline. Even if you didn’t have
+        Memento on your “movie radar” or even his third time Insomnia in 2003,
+        many (and I do mean many) recognized Nolan’s directorial work after
+        successful taking the DC superhero “cape crusader” (i.e. Batman) and
+        created the celebrated Dark Knight trilogy (Batman Begins, The Dark
+        Knight, and The Dark Knight Rises). From there, Nolan went on becoming a
+        much-respected director from critics and the public of moviegoers, with
+        his other films like The Prestige, Inception and Interstellar. Nolan’s
+        approach to crafting a feature film is what makes him truly stand out,
+        rooting his pictures with sociological, ethical, and philosophical
+        concepts / ideas, the explanation and constructs of time, and the nature
+        of personal identity and memory. Additionally, Nolan, who usually also
+        writes the screenplay for most of his movies, also weaves very complex
+        narratives, with some nonlinear storytelling and a tendency to emphasis
+        characters (and their cinematic journey) rather than making the
+        feature’s primary focus on its visual effects and other nuances. Such
+        was the case with his latest 2017 film Dunkirk, which took branched out
+        into the realm of WWII, but imbuing the feature with Nolan’s cinematic
+        flourishes, while 2021’s Tenet continued to explore the director’s
+        concept of time (the flow of it and inverted passage of time) in the
+        realm of a sci-fi action thriller. Now, two years after the release of
+        Tenet, director Christopher Nolan and Universal Pictures prepare for
+        another release an explosive bio-pic drama in the release of
+        Oppenheimer, a film to examine the life of J. Robert Oppenheimer and his
+        work on the atomic bomb. Does this movie give a stirring and cinematic
+        insight in the “father of the atom bomb” or is it bloated endeavor that
+        explodes underneath the weight of inherit hype and anticipation?
+      </p>
+      <img src="imgs2/2222.webp" />
+      <h1>THE STORY</h1>
+      <hr />
+      <p>
+        J. Robert Oppenheimer (Cillian Murphy) has proven himself to be
+        brilliant theoretical physicists, educating himself by other genius
+        minds that have nurtured and challenged his intellect in the realm of
+        quantum mechanics and theory. After expecting a teaching job in
+        Berkeley, Oppenheimer finds himself receiving an unlike invitation to be
+        a part of the American war machine effort, tasked by General Leslie
+        Groves (Matt Damon) to development of an atomic bomb as World War began
+        to take shape in early 1940s. During the next several years, Oppenheimer
+        is given the mission of assemblage, with the formation of a team that
+        will work together with other dysfunctional geniuses, while trying to
+        keep Groves and his military intelligence on an even keel pace with the
+        operation. While Oppenheimer found a match in his wife, Kitty (Emily),
+        and maintained a rocky lover affair in Jean (Florence Pugh), the
+        physicist’s focus remains primarily on the organization of the Trinity
+        Sit, taking scientists and military personnel to New Mexico to build an
+        atomic bomb. Yet, even after the creation of the bomb, Oppenheimer faces
+        scrutiny from various members, including trying to find common ground
+        with Atomic Energy Commission figure, Lewis Strauss (Robert Downey Jr.),
+        as he quickly realizes that his success comes at a price, with those in
+        charge of the nation unwilling to let him to have a way in the bomb’s
+        legacy.
+      </p>
+      <img src="imgs2/4444.webp" />
+      <h1>THE GOOD / THE BAD</h1>
+      <hr />
+      <p>
+        Sorry if this sounds a bit summary to what I said in my review for both
+        Dunkirk and Tenet (the opening paragraph and this one), but it
+        definitely speaks true to my point. So….as stated above…. Christopher
+        Nolan has become a very successful and widely known film director over
+        the past several years in Hollywood moviemaking. Whenever he announces
+        his newest film to direct, the internet newsfeeds light up as many
+        moviegoers and critics eagerly start counting down the days to its
+        release. I do remember first seeing Memento and, at first glance, found
+        it to be confusing, but I learned to appreciate its complexity and
+        unconventional narrative over time (I definitely had to watch that movie
+        several times to fully get it). And of course, I, like many, fell in
+        love with Nolan’s The Dark Knight trilogy, especially with The Dark
+        Knight, and how Nolan’s take on the infamous DC comic book character
+        changed the ultimate direction of superhero movies (for the better).
+        Then came Nolan’s mind-bending feature of Inception and blew me away
+        (probably one of my favorite Christopher Nolan movies) with its actors /
+        characters of the movie (my first introduction to actor Tom Hardy) and
+        within its intricate storytelling of individuals entering a person’s
+        subconscious dreamscape. Interstellar, however, was a bit of tossup.
+        Sure, it had all the flairs and nuances of Nolan’s works as well as
+        being well-acted and delivering a very intriguing story, but it was way
+        too drawn out and a bit confusing in trying to decipher all the
+        scientific technobabble for all non-master’s degree in quantum physics
+        individuals. And finally, Dunkirk, Nolan’s last film, was truly a
+        cinematic experience worth of all the praise and acclaim it received (in
+        my opinion). The complexity of layering three different storylines (each
+        one having their own distinct feeling and time flow) was a bit
+        unorthodox, but I expected something that Nolan would want to achieve
+        through a theatrical film. Its effective proved to be worthwhile, with
+        Dunkirk succeeding in a great cinematic experience that was just as
+        engaging as a feature film as it was for a WWII movie. As for Tenet, I
+        did actually really liked the movie. Yes, it was a bit confusing at
+        times and sort of didn’t explain the plot (or subplots) or even the
+        world building aspects were a bit vague, but it stilled captured an
+        enticing and excitement cinematic experience that showcased Nolan’s
+        signature style with joyous glee and fun. Of course, this brings me back
+        around to talking about Oppenheimer, a 2023 biographical drama film that
+        is based on the book “American Prometheus” by Bai Bird and Martin J.
+        Sherwin. Despite Tenet being a weaker box office result (mainly due to
+        the COVID-19 pandemic), Nolan’s 2020 film received a lot of praise from
+        critics and moviegoers alike; prompting the acclaimed director to begin
+        his next project, which (strange enough) was going to be a biographical
+        film that focuses the camera lens on Oppenheimer, the man who created
+        the atomic bomb. Nolan doing a bio pic? Certainly was a very bizarre
+        decision, especially since the director’s past films weren’t known for
+        strong character development. Still, if Nolan was helming the project, I
+        would certainly be up to see it. After that, the film’s cast was soon
+        announced, with Oppenheimer having a vast collection of acting talents
+        to be attached to the upcoming feature, with actor Cillian Murphy set to
+        play the role of J. Robert Oppenheimer. In 2022, the film’s official
+        teaser trailer dropped with the theatrical screening of the film Nope,
+        which I saw in theaters, and gave the us (the world) the first glimpse
+        at the movie….and it looked incredible. The hype for the movie continued
+        to be build and build with each passing month as Nolan’s next movie
+        continued to gain momentum as moviegoers eagerly awaited to see what
+        lies in store in Oppenheimer. Of course, this was fueled even more when
+        it was announced that the film, which was going to be released on July
+        21st, 2023, was going to be release alongside Warner Bros’s Barbie,
+        another high profile feature. Thus, the whole “Barbenhemier” face off
+        was born as the two movies (and their fanbase) square off. However, I
+        was quite excited to see Oppenheimer more than Barbie. So, I did get a
+        chance to see Oppenheimer during its opening weekend. However, I had a
+        few more reviews to punch out first, including Barbie, before I tackled
+        this particular review. Now, I’m finally ready to share my personal
+        thoughts on Nolan’s latest film. So, what did I think of it? Was it
+        worth the hype. Well, yes it was and I loved it. Despite some very minor
+        complaints, I felt that Christopher Nolan’s Oppenheimer is excellent and
+        gripping first attempt of the biographical motion picture endeavor,
+        which is bolstered by the director’s signature style of filmmaking as
+        well as solid presentation and a massive (yet well-acted) cast. This
+        movie has had a lot of hype and anticipation being placed on this
+        particular movie…..and I think that it surpassed my expectations, which
+        were quite high. If you are cinephile and love movies…. this film is for
+        you.
+      </p>
+      <img src="imgs2/9999.webp" />
+      <p>
+        With Nolan at the helm, the famed director approaches Oppenheimer with a
+        sense of integrity and respect for the source material, adapting Bird
+        and Sherwin’s biographical book on the known physicist in a great
+        respect and showing the humanity within him. Perhaps the most
+        interesting aspect (to me, at least) was the simple fact of Nolan
+        presenting the movie in telling of Robert’s life. Like many out there, I
+        did know of Oppenheimer as a well-known theoretical physicist and as the
+        creator behind the atomic bomb, but that was pretty much it. So, seeing
+        his life being told and examined in the feature was definitely a
+        cinematic treat to watch as events unfolded by further exploring his
+        life in both in the public limelight and behind closed doors. Of course,
+        this isn’t the complete “life and times” of J. Robert Oppenheimer’s life
+        being presented in the movie, but certainly highlights the main part of
+        what made him both famous and infamous equally. As to be expected, Nolan
+        makes the character of Oppenheimer the central focus of it all, keeping
+        the film focused on him and those who moved in and out of his life for
+        those primary years that involved the creation of the atom bomb (before,
+        during, and after). What follows is an extensive look into Robert’s
+        career throughout those said years, with Nolan beautifully showing the
+        excitement of innovation, yet also showing the moral consequences on the
+        end of the spectrum. It is for this reason that Oppenheimer excels, with
+        the feature driving a sense of terror and intensity towards every minute
+        of it, which culminates into final preparation in making the atomic bomb
+        a reality within the Trinity Test. With such a different take on such
+        dealings in a biographical film, Nolan makes his first step into that
+        foray and definitely succeeds. Naturally, Nolan’s directorial nuances
+        come into play and height everything towards his style and filmmaking
+        credibility. So, while Oppenheimer could’ve been presented as a
+        well-informed, yet “by the book” biopic drama endeavor, Nolan shapes the
+        feature towards his customary stylish visual flair and theatrical
+        complexity in his first outing in the biographical genre. And it
+        definitely works….in atomic spades. As is customary for a lot of Nolan’s
+        movies, the present of time is felt throughout Oppenheimer’s three-hour
+        runtime and definitely plays a part in the narrative’s innerworkings.
+        While not as central prevalent as in Inception or Tenet, Oppenheimer
+        runs more along the spiritual veins of Dunkirk, with Nolan layering the
+        feature of different time periods, with one set during the events of the
+        Manhattan Project, the second being set during Robert’s security
+        clearance hearing, and a third during a Senate confirmation hearing for
+        Strauss. The importance of these three threads are instrumental and
+        vital to Oppenheimer’s narrative, with Nolan, who plays “double duty” on
+        the film as director and screenplay writer, weaving them in and out of
+        each other in a way that only someone like him could do. In addition,
+        certain scenes are presented in full color, while other scenes are
+        presented in black and white. It is a bit jarring at first and does take
+        a little bit of getting use to it, but the payoff for it works in the
+        feature’s favor, with Nolan generating a very multi-layered picture that
+        speaks towards his concepts of time style as well as interlacing story
+        threads together for a full realized tale of scientific discovery,
+        questioning aftermath decisions, and jealously betrayal. Another great
+        and poignant attribute that Nolan does with Oppenheimer is in the film’s
+        main message, which is quite meaningful and haunting at the same time.
+        With maybe the exception of The Dark Knight trilogy, Nolan’s movies have
+        always been rooted in some type of symbolism, moral questioning, and
+        character assessment / understanding of a situation. Oppenheimer is no
+        different and heavily implies upon the condition of human emotion and
+        questioning of how far humanity is willing to push the boundaries of
+        destructive power. Of course, the atomic bomb, while built with the
+        ingenuity of understanding science and summed up by the collective
+        knowledge of like minds of scientists, physicists, and engineers, is
+        more about what it lead to, the devastating and disastrous force that
+        lead to the bombing of Hiroshima and Nagasaki; ending the conflict of
+        Pacific Ocean efforts in WWII. Such powerful nature on a scale and
+        magnitude that was used and wages by nations (men in power) and on the
+        populace is a horrifying notion, which takes away from the scientific
+        discovery of it all. Of course, this resides at the core of Oppenheimer,
+        with Nolan demonstrating the palatability of such consequences of
+        decisions as a moral ambiguity, which certainly weighs heavily upon
+        Robert’s journey throughout. In truth, Oppenheimer presents the horrors
+        of progress as humanity moves forward and both the judgements of good
+        and bad that are weighed and measured on such resolutions in
+        technological advancements. This, of course, adds that extra “oomph” to
+        the feature’s proceedings in human emotion and gives a viewer plenty to
+        chew on (and ponder on) in today’s real-world landscape of nations,
+        leaders, and power figureheads of state. Does the end justify the means
+        or is too much power give way to unspeakable terrors that lurk within
+        the undiscover? Question for the philosophers out there.
+      </p>
+      <img src="imgs2/111111111.webp" />
+      <h1>FINAL THOUGHTS</h1>
+      <hr />
+      <p>
+        Creation does not come without consequence as J. Robert Oppenheimer soon
+        discovers as assembles a team of engineers and scientist to create the
+        first atomic bomb for the US and thus dealing with the implications of
+        what he unleashed upon the world in the movie Oppenheimer. Director
+        Christopher Nolan’s latest film takes what he’s best known for in his
+        theatrical movie endeavors and translates it into a bold and spectacular
+        project that juxtaposes the wonder and horror of Oppenheimer’s life.
+        While the feature may struggle in a some very minor areas (mainly its
+        lengthy runtime and the interweaving of the multitude of characters
+        coming and going), a great majority of the film excels as a vision
+        triumph showpiece, especially thanks to Nolan’s handling and style on
+        the movie, an impressive interlaced script / timeline of events, a
+        stunning visual presentation, a powerful score, beautiful
+        cinematography, and fantastic ensemble cast, with notable performances
+        from Murphy and Downey Jr. Personally, I loved this movie. It was
+        definitely a Nolan (from onset to conclusion) and captured his
+        incredible and meticulous filmmaking details to the letter, which made
+        the whole experience that much more enjoyable. The story was woven
+        beautifully and interlaced together through in a very ingenious and
+        creative ways, while the film’s cast was perfect and gave some great
+        performances all the way around and across the board. This was
+        definitely the cinematic event of the year and it was amazing to view it
+        in a 70mm IMAX presentation. Thus, as one can already easily surmise
+        from the bulk of my review, my recommendation for this film would be a
+        celebratory “highly recommended” as it’s a movie that should be seen
+        both bold in scale and paramount importance, while also been personal
+        and character driven; something that is somewhat uncommon in Nolan’s
+        past work. From advance reviews and “word of mouth”, this picture is
+        wholeheartedly worth seeing. While the movie may slightly lack the
+        intensity of Tenet or Dunkirk, or the mind-bending and layered trip of
+        Inception, or even the comic book blockbuster flair of The Dark Knight
+        trilogy, Oppenheimer, with equal and measure of biographical drama and
+        cinematic storytelling of, showcases a masterclass viewing experience on
+        Nolan’s work as director and a filmmaker. Like all his projects, it’s
+        not just a movie….it’s a viewing cinematic experience…..one that many
+        will remember for quite a long time. In the end, Nolan’s Oppenheimer is
+        crowning achievement in the great tapestry of moviemaking; a feature
+        that will remember for excellency in direction, story, and character
+        performances. Much like what Oppenheimer says after successful testing
+        of the bomb….”the world will remember this day”….as well as this movie.
+        Also, as a personal side note, Oppenheimer is my 700th movie review
+        since I’ve started blogging. This is truly a huge and celebratory
+        milestone for me! I wanted give a special thank you to all my readers,
+        followers, and fellow bloggers for reading my movie reviews and giving
+        me this platform to share (with you guys) my views on cinematic tales.
+      </p>
+      <h2>4.7 Out of 5 (Highly Recommended)</h2>
+      <h5>
+        <strong
+          >Released On: <span class="blog7_time">June 21st, 2023</span></strong
+        >
+      </h5>
+      <h5>
+        <strong
+          >Reviewed On: <span class="blog7_time">August 7th, 2023</span></strong
+        >
+      </h5>
+      <p>
+        <em>Oppenheimer </em> is 180 minutes long and rated R for some
+        sexuality, nudity and language
+      </p>
+    </div>
 
-<div class="blog7_review">
-    <h1>THE WORLD WILL REMEMBER THIS
-        DAY…..AND THIS MOVIE</h1>
-        <hr>
-    <p>Director Christopher Nolan is an acclaimed film director that many, including myself, have found to be exceptional in the execution of the films that he directs. While he’s been around for quite some time, developing several short films (both released unreleased), several first noticed Nolan’s work as a director in his sophomore film Memento. Released in 2000, Nolan’s Memento was a complex film of dueling narratives story threads, which meet at the end of the film, producing one whole and cohesive narrative storyline. Even if you didn’t have Memento on your “movie radar” or even his third time Insomnia in 2003, many (and I do mean many) recognized Nolan’s directorial work after successful taking the DC superhero “cape crusader” (i.e. Batman) and created the celebrated Dark Knight trilogy (Batman Begins, The Dark Knight, and The Dark Knight Rises). From there, Nolan went on becoming a much-respected director from critics and the public of moviegoers, with his other films like The Prestige, Inception and Interstellar. Nolan’s approach to crafting a feature film is what makes him truly stand out, rooting his pictures with sociological, ethical, and philosophical concepts / ideas, the explanation and constructs of time, and the nature of personal identity and memory. Additionally, Nolan, who usually also writes the screenplay for most of his movies, also weaves very complex narratives, with some nonlinear storytelling and a tendency to emphasis characters (and their cinematic journey) rather than making the feature’s primary focus on its visual effects and other nuances. Such was the case with his latest 2017 film Dunkirk, which took branched out into the realm of WWII, but imbuing the feature with Nolan’s cinematic flourishes, while 2021’s Tenet continued to explore the director’s concept of time (the flow of it and inverted passage of time) in the realm of a sci-fi action thriller. Now, two years after the release of Tenet, director Christopher Nolan and Universal Pictures prepare for another release an explosive bio-pic drama in the release of Oppenheimer, a film to examine the life of J. Robert Oppenheimer and his work on the atomic bomb. Does this movie give a stirring and cinematic insight in the “father of the atom bomb” or is it bloated endeavor that explodes underneath the weight of inherit hype and anticipation?</p>
-    <img src="imgs2/2222.webp">
-    <h1>THE STORY</h1>
-    <hr>
-    <p>J. Robert Oppenheimer (Cillian Murphy) has proven himself to be brilliant theoretical physicists, educating himself by other genius minds that have nurtured and challenged his intellect in the realm of quantum mechanics and theory. After expecting a teaching job in Berkeley, Oppenheimer finds himself receiving an unlike invitation to be a part of the American war machine effort, tasked by General Leslie Groves (Matt Damon) to development of an atomic bomb as World War began to take shape in early 1940s. During the next several years, Oppenheimer is given the mission of assemblage, with the formation of a team that will work together with other dysfunctional geniuses, while trying to keep Groves and his military intelligence on an even keel pace with the operation. While Oppenheimer found a match in his wife, Kitty (Emily), and maintained a rocky lover affair in Jean (Florence Pugh), the physicist’s focus remains primarily on the organization of the Trinity Sit, taking scientists and military personnel to New Mexico to build an atomic bomb. Yet, even after the creation of the bomb, Oppenheimer faces scrutiny from various members, including trying to find common ground with Atomic Energy Commission figure, Lewis Strauss (Robert Downey Jr.), as he quickly realizes that his success comes at a price, with those in charge of the nation unwilling to let him to have a way in the bomb’s legacy.</p>
-        <img src="imgs2/4444.webp">
-        <h1>THE GOOD / THE BAD
-        </h1>
-        <hr>
-        <p>Sorry if this sounds a bit summary to what I said in my review for both Dunkirk and Tenet (the opening paragraph and this one), but it definitely speaks true to my point. So….as stated above…. Christopher Nolan has become a very successful and widely known film director over the past several years in Hollywood moviemaking. Whenever he announces his newest film to direct, the internet newsfeeds light up as many moviegoers and critics eagerly start counting down the days to its release. I do remember first seeing Memento and, at first glance, found it to be confusing, but I learned to appreciate its complexity and unconventional narrative over time (I definitely had to watch that movie several times to fully get it). And of course, I, like many, fell in love with Nolan’s The Dark Knight trilogy, especially with The Dark Knight, and how Nolan’s take on the infamous DC comic book character changed the ultimate direction of superhero movies (for the better). Then came Nolan’s mind-bending feature of Inception and blew me away (probably one of my favorite Christopher Nolan movies) with its actors / characters of the movie (my first introduction to actor Tom Hardy) and within its intricate storytelling of individuals entering a person’s subconscious dreamscape.
-
-            Interstellar, however, was a bit of tossup. Sure, it had all the flairs and nuances of Nolan’s works as well as being well-acted and delivering a very intriguing story, but it was way too drawn out and a bit confusing in trying to decipher all the scientific technobabble for all non-master’s degree in quantum physics individuals. And finally, Dunkirk, Nolan’s last film, was truly a cinematic experience worth of all the praise and acclaim it received (in my opinion). The complexity of layering three different storylines (each one having their own distinct feeling and time flow) was a bit unorthodox, but I expected something that Nolan would want to achieve through a theatrical film. Its effective proved to be worthwhile, with Dunkirk succeeding in a great cinematic experience that was just as engaging as a feature film as it was for a WWII movie. As for Tenet, I did actually really liked the movie. Yes, it was a bit confusing at times and sort of didn’t explain the plot (or subplots) or even the world building aspects were a bit vague, but it stilled captured an enticing and excitement cinematic experience that showcased Nolan’s signature style with joyous glee and fun.
-            
-            Of course, this brings me back around to talking about Oppenheimer, a 2023 biographical drama film that is based on the book “American Prometheus” by Bai Bird and Martin J. Sherwin. Despite Tenet being a weaker box office result (mainly due to the COVID-19 pandemic), Nolan’s 2020 film received a lot of praise from critics and moviegoers alike; prompting the acclaimed director to begin his next project, which (strange enough) was going to be a biographical film that focuses the camera lens on Oppenheimer, the man who created the atomic bomb. Nolan doing a bio pic? Certainly was a very bizarre decision, especially since the director’s past films weren’t known for strong character development. Still, if Nolan was helming the project, I would certainly be up to see it. After that, the film’s cast was soon announced, with Oppenheimer having a vast collection of acting talents to be attached to the upcoming feature, with actor Cillian Murphy set to play the role of J. Robert Oppenheimer. In 2022, the film’s official teaser trailer dropped with the theatrical screening of the film Nope, which I saw in theaters, and gave the us (the world) the first glimpse at the movie….and it looked incredible. The hype for the movie continued to be build and build with each passing month as Nolan’s next movie continued to gain momentum as moviegoers eagerly awaited to see what lies in store in Oppenheimer. Of course, this was fueled even more when it was announced that the film, which was going to be released on July 21st, 2023, was going to be release alongside Warner Bros’s Barbie, another high profile feature. Thus, the whole “Barbenhemier” face off was born as the two movies (and their fanbase) square off. However, I was quite excited to see Oppenheimer more than Barbie. So, I did get a chance to see Oppenheimer during its opening weekend. However, I had a few more reviews to punch out first, including Barbie, before I tackled this particular review. Now, I’m finally ready to share my personal thoughts on Nolan’s latest film. So, what did I think of it? Was it worth the hype. Well, yes it was and I loved it. Despite some very minor complaints, I felt that Christopher Nolan’s Oppenheimer is excellent and gripping first attempt of the biographical motion picture endeavor, which is bolstered by the director’s signature style of filmmaking as well as solid presentation and a massive (yet well-acted) cast. This movie has had a lot of hype and anticipation being placed on this particular movie…..and I think that it surpassed my expectations, which were quite high. If you are cinephile and love movies…. this film is for you.</p>
-    <img src="imgs2/9999.webp">
-    <p>With Nolan at the helm, the famed director approaches Oppenheimer with a sense of integrity and respect for the source material, adapting Bird and Sherwin’s biographical book on the known physicist in a great respect and showing the humanity within him. Perhaps the most interesting aspect (to me, at least) was the simple fact of Nolan presenting the movie in telling of Robert’s life. Like many out there, I did know of Oppenheimer as a well-known theoretical physicist and as the creator behind the atomic bomb, but that was pretty much it. So, seeing his life being told and examined in the feature was definitely a cinematic treat to watch as events unfolded by further exploring his life in both in the public limelight and behind closed doors. Of course, this isn’t the complete “life and times” of J. Robert Oppenheimer’s life being presented in the movie, but certainly highlights the main part of what made him both famous and infamous equally. As to be expected, Nolan makes the character of Oppenheimer the central focus of it all, keeping the film focused on him and those who moved in and out of his life for those primary years that involved the creation of the atom bomb (before, during, and after). What follows is an extensive look into Robert’s career throughout those said years, with Nolan beautifully showing the excitement of innovation, yet also showing the moral consequences on the end of the spectrum. It is for this reason that Oppenheimer excels, with the feature driving a sense of terror and intensity towards every minute of it, which culminates into final preparation in making the atomic bomb a reality within the Trinity Test. With such a different take on such dealings in a biographical film, Nolan makes his first step into that foray and definitely succeeds. Naturally, Nolan’s directorial nuances come into play and height everything towards his style and filmmaking credibility. So, while Oppenheimer could’ve been presented as a well-informed, yet “by the book” biopic drama endeavor, Nolan shapes the feature towards his customary stylish visual flair and theatrical complexity in his first outing in the biographical genre. And it definitely works….in atomic spades.
-
-As is customary for a lot of Nolan’s movies, the present of time is felt throughout Oppenheimer’s three-hour runtime and definitely plays a part in the narrative’s innerworkings. While not as central prevalent as in Inception or Tenet, Oppenheimer runs more along the spiritual veins of Dunkirk, with Nolan layering the feature of different time periods, with one set during the events of the Manhattan Project, the second being set during Robert’s security clearance hearing, and a third during a Senate confirmation hearing for Strauss. The importance of these three threads are instrumental and vital to Oppenheimer’s narrative, with Nolan, who plays “double duty” on the film as director and screenplay writer, weaving them in and out of each other in a way that only someone like him could do. In addition, certain scenes are presented in full color, while other scenes are presented in black and white. It is a bit jarring at first and does take a little bit of getting use to it, but the payoff for it works in the feature’s favor, with Nolan generating a very multi-layered picture that speaks towards his concepts of time style as well as interlacing story threads together for a full realized tale of scientific discovery, questioning aftermath decisions, and jealously betrayal.
-
-Another great and poignant attribute that Nolan does with Oppenheimer is in the film’s main message, which is quite meaningful and haunting at the same time. With maybe the exception of The Dark Knight trilogy, Nolan’s movies have always been rooted in some type of symbolism, moral questioning, and character assessment / understanding of a situation. Oppenheimer is no different and heavily implies upon the condition of human emotion and questioning of how far humanity is willing to push the boundaries of destructive power. Of course, the atomic bomb, while built with the ingenuity of understanding science and summed up by the collective knowledge of like minds of scientists, physicists, and engineers, is more about what it lead to, the devastating and disastrous force that lead to the bombing of Hiroshima and Nagasaki; ending the conflict of Pacific Ocean efforts in WWII. Such powerful nature on a scale and magnitude that was used and wages by nations (men in power) and on the populace is a horrifying notion, which takes away from the scientific discovery of it all. Of course, this resides at the core of Oppenheimer, with Nolan demonstrating the palatability of such consequences of decisions as a moral ambiguity, which certainly weighs heavily upon Robert’s journey throughout. In truth, Oppenheimer presents the horrors of progress as humanity moves forward and both the judgements of good and bad that are weighed and measured on such resolutions in technological advancements. This, of course, adds that extra “oomph” to the feature’s proceedings in human emotion and gives a viewer plenty to chew on (and ponder on) in today’s real-world landscape of nations, leaders, and power figureheads of state. Does the end justify the means or is too much power give way to unspeakable terrors that lurk within the undiscover? Question for the philosophers out there.</p>
-    <img src="imgs2/111111111.webp">
-    <h1>FINAL THOUGHTS</h1>
-    <hr>
-    <p>Creation does not come without consequence as J. Robert Oppenheimer soon discovers as assembles a team of engineers and scientist to create the first atomic bomb for the US and thus dealing with the implications of what he unleashed upon the world in the movie Oppenheimer. Director Christopher Nolan’s latest film takes what he’s best known for in his theatrical movie endeavors and translates it into a bold and spectacular project that juxtaposes the wonder and horror of Oppenheimer’s life. While the feature may struggle in a some very minor areas (mainly its lengthy runtime and the interweaving of the multitude of characters coming and going), a great majority of the film excels as a vision triumph showpiece, especially thanks to Nolan’s handling and style on the movie, an impressive interlaced script / timeline of events, a stunning visual presentation, a powerful score, beautiful cinematography, and fantastic ensemble cast, with notable performances from Murphy and Downey Jr. Personally, I loved this movie. It was definitely a Nolan (from onset to conclusion) and captured his incredible and meticulous filmmaking details to the letter, which made the whole experience that much more enjoyable. The story was woven beautifully and interlaced together through in a very ingenious and creative ways, while the film’s cast was perfect and gave some great performances all the way around and across the board. This was definitely the cinematic event of the year and it was amazing to view it in a 70mm IMAX presentation. Thus, as one can already easily surmise from the bulk of my review, my recommendation for this film would be a celebratory “highly recommended” as it’s a movie that should be seen both bold in scale and paramount importance, while also been personal and character driven; something that is somewhat uncommon in Nolan’s past work. From advance reviews and “word of mouth”, this picture is wholeheartedly worth seeing. While the movie may slightly lack the intensity of Tenet or Dunkirk, or the mind-bending and layered trip of Inception, or even the comic book blockbuster flair of The Dark Knight trilogy, Oppenheimer, with equal and measure of biographical drama and cinematic storytelling of, showcases a masterclass viewing experience on Nolan’s work as director and a filmmaker. Like all his projects, it’s not just a movie….it’s a viewing cinematic experience…..one that many will remember for quite a long time. In the end, Nolan’s Oppenheimer is crowning achievement in the great tapestry of moviemaking; a feature that will remember for excellency in direction, story, and character performances. Much like what Oppenheimer says after successful testing of the bomb….”the world will remember this day”….as well as this movie.
-
- 
-
-Also, as a personal side note, Oppenheimer is my 700th movie review since I’ve started blogging. This is truly a huge and celebratory milestone for me! I wanted give a special thank you to all my readers, followers, and fellow bloggers for reading my movie reviews and giving me this platform to share (with you guys) my views on cinematic tales.</p>        
-        <h2>4.7 Out of 5 (Highly Recommended)
-        </h2>
-        <h5><strong>Released On: <span class="blog7_time">June 21st, 2023</span></strong>
-        </h5>
-        <h5><strong>Reviewed On: <span class="blog7_time">August 7th, 2023</span></strong>
-        </h5>
-            <p><em>Oppenheimer </em> is 180 minutes long and rated R for some sexuality, nudity and language</p>
-        
-</div>
-
-<div class="blog8_post">
-    <ul>
+    <div class="blog8_post">
+      <ul>
         <li>
-            <p>Posted on August 7, 2023 </p>
+          <p>Posted on August 7, 2023</p>
         </li>
         <li>
-            <p>by Jason </p>
+          <p>by Jason</p>
         </li>
         <li>
-            <img src="https://1.gravatar.com/avatar/3ae78a80f449ee2ade5264bd3d3e1395be1af6fa3f73ef741050742ec0465fe4?size=256">
+          <img
+            src="https://1.gravatar.com/avatar/3ae78a80f449ee2ade5264bd3d3e1395be1af6fa3f73ef741050742ec0465fe4?size=256"
+          />
         </li>
-    </ul>
-</div>
+      </ul>
+    </div>
 
-<div id="review">Review</div>
-
-</body>
+    <div id="review">Review</div>
+  </body>
+</html>

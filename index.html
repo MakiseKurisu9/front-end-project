@@ -7,259 +7,522 @@
     <link rel="stylesheet" href="css/style_index.css" />
   </head>
   <body>
-  <!--imdb导航栏开始-->
-  <nav class="imdb1_up">
+    <!--imdb导航栏开始-->
+    <nav class="imdb1_up">
       <a href="index.html">
-        <img src="imgs/logo.png" class="home" href=""></img>
+        <img src="imgs/logo.png" class="home" href="" />
       </a>
       <div class="imdb1_up_select">
-        <a class="imdb1_up_select_character" id="Menu" href="">Menu</a>
-        <input class="imdb1_up_select_character imdb1_up_select_search" placeholder="Search IMDb">
-        <a href=""><img src="imgs/search.png"  id="search"></a>
+        <div class="imdb1_up_select_border"><a href="">Menu</a></div>
+        <div class="imdb1_up_input_border">
+          <input
+            class="imdb1_up_select_character imdb1_up_select_search"
+            placeholder="Search IMDb"
+          />
+          <a href=""><img src="imgs/search.png" id="search" /></a>
+        </div>
         <div class="imdb1_up_select_option">
           <ul>
-            <li><a href="" id="imdb1_up_select_option_vip" class="imdb1_up_select_option_other">IMDbPro</a></li>
-            <li>I</li>
-            <li><img src="imgs/checklist.png"></li>
-            <li><a href="" class="imdb1_up_select_option_other">WatchList</a></li>
-            <li><a href="loginIn.html" class="imdb1_up_select_option_other">Sign In</a></li>
-            <li><a href="" class="imdb1_up_select_option_other">EN</a></li>
+            <li>
+              <div class="imdb1_up_select_option_other_border">
+                <a
+                  href=""
+                  id="imdb1_up_select_option_vip"
+                  class="imdb1_up_select_option_other"
+                  >IMDbPro</a
+                >
+              </div>
+            </li>
+
+            <li>
+              <div class="imdb1_up_select_option_other_border1">
+                <a href="" class="imdb1_up_select_option_other"
+                  ><img src="imgs/checklist.png" />WatchList</a
+                >
+              </div>
+            </li>
+            <li>
+              <div class="imdb1_up_select_option_other_border">
+                <a href="loginIn.html" class="imdb1_up_select_option_other"
+                  >Sign In</a
+                >
+              </div>
+            </li>
+            <li>
+              <div class="imdb1_up_select_option_other_border">
+                <a href="" class="imdb1_up_select_option_other">EN</a>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
-  </nav>
-  <!--imdb导航栏结束-->
-  <!--imdb预告开始-->
-  <div class="imdb_color">
-<div class="imdb2_forecast">
-  <div class="imdb2_forecast_leftPicture">
-    <ul id="imglist">
-      <li><img src="imgs/promontion1.jpg" alt=""></li>
-      <li><img src="imgs/Tenet-poster.jpg" alt=""></li>
-      <li><img src="css/j.jpg" alt=""></li>
-      <li><img src="css/interstellar-movie-poster.jpg" alt=""></li>
-      <li><img src="css/knight.webp" alt=""></li>
-      <li><img src="imgs/promontion1.jpg" alt=""></li>
-    </ul>
-    <ul id="isolist">
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-      <li>5</li>
+    </nav>
+    <!--imdb导航栏结束-->
+    <!--imdb预告开始-->
+    <div class="imdb_color">
+      <div class="imdb2_forecast">
+        <div class="imdb2_forecast_leftPicture">
+          <ul id="imglist">
+            <li><img src="imgs/promontion1.jpg" alt="" /></li>
+            <li><img src="imgs/Tenet-poster.jpg" alt="" /></li>
+            <li><img src="css/j.jpg" alt="" /></li>
+            <li><img src="css/interstellar-movie-poster.jpg" alt="" /></li>
+            <li><img src="css/knight.webp" alt="" /></li>
+            <li><img src="imgs/promontion1.jpg" alt="" /></li>
+          </ul>
+          <ul id="isolist">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+          </ul>
+          <div class="prev">&lt;</div>
+          <div class="next">></div>
+        </div>
+        <p id="imdb2_forecast_text">Others like</p>
+        <div class="imdb2_forecast_right">
+          <p class="imdb2_forecast_right_describtion">Up next</p>
+          <div class="imdb2_forecast_right_RightPicture">
+            <ul class="imdb2_forecast_right_RightPicture_show">
+              <li>
+                <a
+                  href="https://www.imdb.com/video/vi1131661081/?listId=ls053181649&ref_=hp_hp_e_2"
+                  ><img
+                    src="css/2.jpg"
+                    class="imdb2_forecast_right_RightPicture_show_picture" /></a
+                ><a
+                  href="https://www.imdb.com/video/vi1131661081/?listId=ls053181649&ref_=hp_hp_e_2"
+                  class="imdb2_forecast_right_RightPicture_show_text"
+                  >'Rebel Moon: Part Two - The Scargiver'<br />The Battle
+                  Continues</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.imdb.com/video/vi1131661081/?listId=ls053181649&ref_=hp_hp_e_2"
+                  ><img
+                    src="css/3.jpg"
+                    class="imdb2_forecast_right_RightPicture_show_picture" /></a
+                ><a
+                  href="https://www.imdb.com/title/tt30007864/?ref_=nv_sr_srsg_0_tt_2_nm_0_q_%27The%2520American%2520Society%2520of%2520Magical%2520Negroes%27"
+                  class="imdb2_forecast_right_RightPicture_show_text"
+                  >'The American Society of Magical Negroes'<br />Watch the
+                  Trailer</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.imdb.com/video/vi1131661081/?listId=ls053181649&ref_=hp_hp_e_2"
+                  ><img
+                    src="css/4.jpg"
+                    class="imdb2_forecast_right_RightPicture_show_picture" /></a
+                ><a
+                  href="https://www.imdb.com/title/tt30260619/"
+                  class="imdb2_forecast_right_RightPicture_show_text"
+                  >5 Memorable TV Scenes of 2023<br />Ted's Final Match and
+                  More</a
+                >
+              </li>
+            </ul>
+            <a class="imdb2_forecast_right_RightPicture_more" href=""
+              >Browse trailers👉</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--imdb预告结束-->
+    <!--imdb今天开始-->
+    <div class="imdb3_today">
+      <div class="imdb3_today1">
+        <h3 class="imdb3_today_title">Featured today</h3>
+      </div>
+      <div class="imdb3_today_post">
+        <a href="blog.html"
+          ><img src="imgs/31.jpg" class="imdb3_today_post_left"
+        /></a>
+        <a href=""><img src="imgs/41.jpg" class="imdb3_today_post_right" /></a>
+      </div>
+      <div class="imdb3_today_description">
+        <div class="imdb3_today_description_left">
+          <a class="imdb3_today_description_left_text" href="blog.html"
+            >The Top Movies of 2023</a
+          >
+          <a class="imdb3_today_description_left_link" href=""
+            >See our worldwide top 10 lists</a
+          >
+        </div>
+        <div class="imdb3_today_description_right">
+          <a class="imdb3_today_description_right_text" href=""
+            >The Top TV Series of 2023</a
+          >
+          <a class="imdb3_today_description_right_link" href=""
+            >See our worldwide top 10 lists</a
+          >
+        </div>
+      </div>
+    </div>
+    <!--imdb今天结束-->
 
-    </ul>
-    <div class="prev">&lt;</div>
-    <div class="next">></div>
-  </div>
-  <p id="imdb2_forecast_text">Others like</p>
-  <div class="imdb2_forecast_right">
-    <p class="imdb2_forecast_right_describtion">
-      Up next
-    </p>
-    <div class="imdb2_forecast_right_RightPicture">
-      <ul class="imdb2_forecast_right_RightPicture_show">
-        <li ><img src="css/2.jpg" class="imdb2_forecast_right_RightPicture_show_picture"><a href="https://www.imdb.com/video/vi1131661081/?listId=ls053181649&ref_=hp_hp_e_2" class="imdb2_forecast_right_RightPicture_show_text">'Rebel Moon: Part Two - The Scargiver'<br/>The Battle Continues</a></li>
-        <li><img src="css/3.jpg" class="imdb2_forecast_right_RightPicture_show_picture"><a href="https://www.imdb.com/title/tt30007864/?ref_=nv_sr_srsg_0_tt_2_nm_0_q_%27The%2520American%2520Society%2520of%2520Magical%2520Negroes%27" class="imdb2_forecast_right_RightPicture_show_text">'The American Society of Magical Negroes'<br/>Watch the Trailer</a></li>
-        <li><img src="css/4.jpg" class="imdb2_forecast_right_RightPicture_show_picture"><a href="https://www.imdb.com/title/tt30260619/" class="imdb2_forecast_right_RightPicture_show_text">5 Memorable TV Scenes of 2023<br/>Ted's Final Match and More</a></li>
-      </ul>
-      <a class="imdb2_forecast_right_RightPicture_more" href="">Browse trailers👉</a>
+    <!--imdb2023开始-->
+    <div class="imdb4_2023">
+      <div class="imdb4_2023_title">
+        <a class="imdb4_2023_title_link" href="">Best Of 2023 👉</a>
+      </div>
+      <div class="imdb4_2023_text">
+        <p class="imdb4_2023_title_text">The year in review</p>
+      </div>
+      <div class="imdb4_2023_list">
+        <ul>
+          <li>
+            <a href="blog.html"
+              ><img src="imgs/55.jpg" alt="" class="imdb4_2023_list_picture1"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="imgs/56.jpg" alt="" class="imdb4_2023_list_picture2"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="imgs/57.jpg" alt="" class="imdb4_2023_list_picture3"
+            /></a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</div>
-</div>
-  <!--imdb预告结束-->
-<!--imdb今天开始-->
-<div class="imdb3_today">
-  <div class="imdb3_today1">
-  <h3 class="imdb3_today_title">Featured today</h3>
-</div>
-  <div class="imdb3_today_post">
-    <a href="blog.html"><img  src="imgs/31.jpg" class="imdb3_today_post_left"></a>
-    <a href=""><img src="imgs/41.jpg" class="imdb3_today_post_right"></a>
-  </div>
-  <div class="imdb3_today_description">
-    <div class="imdb3_today_description_left">
-      <a class="imdb3_today_description_left_text" href="blog.html">The Top Movies of 2023</a>
-      <a class="imdb3_today_description_left_link" href="">See our worldwide top 10 lists</a>
-    </div>
-    <div class="imdb3_today_description_right">
-      <a class="imdb3_today_description_right_text" href="">The Top TV Series of 2023</a>
-      <a class="imdb3_today_description_right_link" href="">See our worldwide top 10 lists</a>
-    </div>
-  </div>
+    <!--imdb2023结束-->
 
-</div>
-<!--imdb今天结束-->
+    <!--imdb看什么开始-->
+    <div class="imdb5_WhatToWatch">
+      <h3 class="imdb5_WhatToWatch_title">What to watch</h3>
+      <div class="imdb5_WhatToWatch_recommendations1">
+        <a class="imdb5_WhatToWatch_recommendations" href="">
+          Get more recommendations 👉
+        </a>
+      </div>
+      <div class="imdb5_WhatToWatch_topPicks">
+        <img src="imgs/top-10.png" class="imdb5_WhatToWatch_topPicks_img" />
+        <h3 class="imdb5_WhatToWatch_topPicks_title">Top picks ></h3>
+      </div>
+      <div class="imdb5_WhatToWatch_ForYou">
+        <p class="imdb5_WhatToWatch_ForYou_text">
+          TV shows and movies just for you
+        </p>
+      </div>
+      <div class="imdb5_WhatToWatch_list">
+        <div class="imdb5_WhatToWatch_list_up">
+          <div class="imdb5_WhatToWatch_list_post">
+            <img
+              src="imgs/71.jpg"
+              class="imdb5_WhatToWatch_list_post_picture"
+            />
+            <div class="mask">
+              <h3>Pulp Fiction</h3>
+              <p>
+                In a shadow-draped city, two uninvited guests slip into a dimly
+                lit bar. Cold eyes scan the room like steel, and suddenly, a
+                gunshot pierces the smoky air. A melancholy melody resonates in
+                the corner as turbulent emotions surge through their veins.
+                Destined to weave a bizarre and unique legend in the city's
+                gritty underworld.
+              </p>
+            </div>
+          </div>
+          <div class="imdb5_WhatToWatch_list_post">
+            <img
+              src="imgs/72.jpg"
+              class="imdb5_WhatToWatch_list_post_picture"
+            />
+            <div class="mask">
+              <h3>Se7en</h3>
+              <p>
+                Detectives Somerset and Mills chase a serial killer who uses the
+                seven deadly sins as a gruesome motif. As the unsettling crimes
+                escalate, the city's darkness becomes palpable. The shocking
+                climax reveals a chilling philosophy. "Se7en," a riveting
+                thriller, leaves an indelible mark, probing the depths of human
+                depravity.
+              </p>
+            </div>
+          </div>
+          <div class="imdb5_WhatToWatch_list_post">
+            <img
+              src="imgs/73.jpg"
+              class="imdb5_WhatToWatch_list_post_picture"
+            />
+            <div class="mask">
+              <h3>Blade Runner</h3>
+              <p>
+                In a dystopian future, "Blade Runner" follows Deckard, a skilled
+                replicant hunter, tasked with eliminating rogue bioengineered
+                beings. As he navigates a neon-lit cityscape, moral ambiguity
+                unfolds, questioning the essence of humanity. Ridley Scott's
+                masterpiece explores identity, artificial intelligence, and the
+                blurred lines between man and machine in a visually stunning and
+                thought-provoking narrative.
+              </p>
+            </div>
+          </div>
+          <div class="imdb5_WhatToWatch_list_post">
+            <img
+              src="imgs/74.jpg"
+              class="imdb5_WhatToWatch_list_post_picture"
+            />
+            <div class="mask">
+              <h3>Taxi Driver</h3>
+              <p>
+                delves into the gritty streets of New York City, following
+                Travis Bickle, a mentally unstable Vietnam War veteran turned
+                cab driver. His descent into urban alienation and obsession with
+                saving a young prostitute provides a haunting portrayal of
+                loneliness and societal decay. Martin Scorsese's cinematic
+                masterpiece captivates with its raw intensity and iconic
+                performances.
+              </p>
+            </div>
+          </div>
+          <div class="imdb5_WhatToWatch_list_post">
+            <img
+              src="imgs/76.jpg"
+              class="imdb5_WhatToWatch_list_post_picture"
+            />
+            <div class="mask">
+              <h3>American Psycho</h3>
+              <p>
+                "American Psycho" unfolds the enigmatic life of Patrick Bateman,
+                a wealthy New York investment banker harboring a dark and
+                psychotic alter ego. Set against the backdrop of excess in the
+                1980s, the film delves into Bateman's disturbing descent into
+                violence, blurring the lines between reality and delusion. This
+                psychological thriller explores the veneer of sanity within the
+                veneer of success.
+              </p>
+            </div>
+          </div>
+          <div class="imdb5_WhatToWatch_list_post">
+            <img
+              src="css/2333.jpg"
+              class="imdb5_WhatToWatch_list_post_picture"
+            />
+            <div class="mask">
+              <h3>Pixels (2015)</h3>
+              <p>
+                "Pixels" is a sci-fi comedy where Earth is threatened by video
+                game characters brought to life by extraterrestrial forces. A
+                group of arcade champions, led by Adam Sandler and his quirky
+                team, must use their gaming skills to save the world. Packed
+                with nostalgia and pixelated chaos, the film blends humor and
+                action for a lighthearted adventure through retro gaming
+                elements.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="imdb5_WhatToWatch_list_bottom">
+          <!--post1-->
+          <div class="imdb5_WhatToWatch_list_bottom_post">
+            <div class="imdb5_WhatToWatch_list_bottom_star">💛8.9</div>
+            <div class="imdb5_WhatToWatch_list_bottom_name">
+              <a
+                href="pulpFiction.html"
+                class="imdb5_WhatToWatch_list_bottom_name1"
+                >Pulp Fiction</a
+              >
+            </div>
+            <div class="imdb5_WhatToWatch_list_bottom_watchlist">
+              <a href="" class="imdb5_WhatToWatch_list_bottom_watchlist1"
+                >➕WatchList</a
+              >
+            </div>
+            <div class="imdb5_WhatToWatch_list_bottom_bottom">
+              <div class="imdb5_WhatToWatch_list_bottom_bottom_left">
+                <a
+                  href=""
+                  class="imdb5_WhatToWatch_list_bottom_bottom_left_trailer"
+                  >Trailer</a
+                >
+              </div>
+              <div class="imdb5_WhatToWatch_list_bottom_bottom_right">
+                <a
+                  href=""
+                  class="imdb5_WhatToWatch_list_bottom_bottom_right_information_link"
+                  ><img
+                    src="imgs/information.png"
+                    class="imdb5_WhatToWatch_list_bottom_bottom_right_information"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <!--post2-->
+          <div class="imdb5_WhatToWatch_list_bottom_post">
+            <div class="imdb5_WhatToWatch_list_bottom_star">💛8.6</div>
+            <div class="imdb5_WhatToWatch_list_bottom_name">
+              <a href="" class="imdb5_WhatToWatch_list_bottom_name1">Se7en</a>
+            </div>
+            <div class="imdb5_WhatToWatch_list_bottom_watchlist">
+              <a href="" class="imdb5_WhatToWatch_list_bottom_watchlist1"
+                >➕WatchList</a
+              >
+            </div>
+            <div class="imdb5_WhatToWatch_list_bottom_bottom">
+              <div class="imdb5_WhatToWatch_list_bottom_bottom_left">
+                <a
+                  href=""
+                  class="imdb5_WhatToWatch_list_bottom_bottom_left_trailer"
+                  >Trailer</a
+                >
+              </div>
+              <div class="imdb5_WhatToWatch_list_bottom_bottom_right">
+                <a
+                  href=""
+                  class="imdb5_WhatToWatch_list_bottom_bottom_right_information_link"
+                  ><img
+                    src="imgs/information.png"
+                    class="imdb5_WhatToWatch_list_bottom_bottom_right_information"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <!--post3-->
+          <div class="imdb5_WhatToWatch_list_bottom_post">
+            <div class="imdb5_WhatToWatch_list_bottom_star">💛8.1</div>
+            <div class="imdb5_WhatToWatch_list_bottom_name">
+              <a href="" class="imdb5_WhatToWatch_list_bottom_name1"
+                >Blade Runner</a
+              >
+            </div>
+            <div class="imdb5_WhatToWatch_list_bottom_watchlist">
+              <a href="" class="imdb5_WhatToWatch_list_bottom_watchlist1"
+                >➕WatchList</a
+              >
+            </div>
+            <div class="imdb5_WhatToWatch_list_bottom_bottom">
+              <div class="imdb5_WhatToWatch_list_bottom_bottom_left">
+                <a
+                  href=""
+                  class="imdb5_WhatToWatch_list_bottom_bottom_left_trailer"
+                  >Trailer</a
+                >
+              </div>
+              <div class="imdb5_WhatToWatch_list_bottom_bottom_right">
+                <a
+                  href=""
+                  class="imdb5_WhatToWatch_list_bottom_bottom_right_information_link"
+                  ><img
+                    src="imgs/information.png"
+                    class="imdb5_WhatToWatch_list_bottom_bottom_right_information"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <!--post4-->
+          <div class="imdb5_WhatToWatch_list_bottom_post">
+            <div class="imdb5_WhatToWatch_list_bottom_star">💛8.2</div>
+            <div class="imdb5_WhatToWatch_list_bottom_name">
+              <a href="" class="imdb5_WhatToWatch_list_bottom_name1"
+                >Taxi Driver</a
+              >
+            </div>
+            <div class="imdb5_WhatToWatch_list_bottom_watchlist">
+              <a href="" class="imdb5_WhatToWatch_list_bottom_watchlist1"
+                >➕WatchList</a
+              >
+            </div>
+            <div class="imdb5_WhatToWatch_list_bottom_bottom">
+              <div class="imdb5_WhatToWatch_list_bottom_bottom_left">
+                <a
+                  href=""
+                  class="imdb5_WhatToWatch_list_bottom_bottom_left_trailer"
+                  >Trailer</a
+                >
+              </div>
+              <div class="imdb5_WhatToWatch_list_bottom_bottom_right">
+                <a
+                  href=""
+                  class="imdb5_WhatToWatch_list_bottom_bottom_right_information_link"
+                  ><img
+                    src="imgs/information.png"
+                    class="imdb5_WhatToWatch_list_bottom_bottom_right_information"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <!--post5-->
+          <div class="imdb5_WhatToWatch_list_bottom_post">
+            <div class="imdb5_WhatToWatch_list_bottom_star">💛7.6</div>
+            <div class="imdb5_WhatToWatch_list_bottom_name">
+              <a href="" class="imdb5_WhatToWatch_list_bottom_name1"
+                >American Psycho</a
+              >
+            </div>
+            <div class="imdb5_WhatToWatch_list_bottom_watchlist">
+              <a href="" class="imdb5_WhatToWatch_list_bottom_watchlist1"
+                >➕WatchList</a
+              >
+            </div>
+            <div class="imdb5_WhatToWatch_list_bottom_bottom">
+              <div class="imdb5_WhatToWatch_list_bottom_bottom_left">
+                <a
+                  href=""
+                  class="imdb5_WhatToWatch_list_bottom_bottom_left_trailer"
+                  >Trailer</a
+                >
+              </div>
+              <div class="imdb5_WhatToWatch_list_bottom_bottom_right">
+                <a
+                  href=""
+                  class="imdb5_WhatToWatch_list_bottom_bottom_right_information_link"
+                  ><img
+                    src="imgs/information.png"
+                    class="imdb5_WhatToWatch_list_bottom_bottom_right_information"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <!--post6-->
+          <div class="imdb5_WhatToWatch_list_bottom_post">
+            <div class="imdb5_WhatToWatch_list_bottom_star">💛5.6</div>
+            <div class="imdb5_WhatToWatch_list_bottom_name">
+              <a href="" class="imdb5_WhatToWatch_list_bottom_name1">PIXELS</a>
+            </div>
+            <div class="imdb5_WhatToWatch_list_bottom_watchlist">
+              <a href="" class="imdb5_WhatToWatch_list_bottom_watchlist1"
+                >➕WatchList</a
+              >
+            </div>
+            <div class="imdb5_WhatToWatch_list_bottom_bottom">
+              <div class="imdb5_WhatToWatch_list_bottom_bottom_left">
+                <a
+                  href=""
+                  class="imdb5_WhatToWatch_list_bottom_bottom_left_trailer"
+                  >Trailer</a
+                >
+              </div>
+              <div class="imdb5_WhatToWatch_list_bottom_bottom_right">
+                <a
+                  href=""
+                  class="imdb5_WhatToWatch_list_bottom_bottom_right_information_link"
+                  ><img
+                    src="imgs/information.png"
+                    class="imdb5_WhatToWatch_list_bottom_bottom_right_information"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--imdb看什么结束-->
 
-<!--imdb2023开始-->
-<div class="imdb4_2023">
-<div class="imdb4_2023_title">
-  <a class= "imdb4_2023_title_link" href="">Best Of 2023 👉</a>
-</div>
-<div class="imdb4_2023_text">
-  <p class="imdb4_2023_title_text">The year in review</p>
-</div>
-<div class="imdb4_2023_list">
-  <ul >
-    <li><a href="blog.html"><img src="imgs/55.jpg" alt="" class="imdb4_2023_list_picture1"></a></li>
-    <li><a href=""><img src="imgs/56.jpg" alt="" class="imdb4_2023_list_picture2"></a></li>
-    <li><a href=""><img src="imgs/57.jpg" alt="" class="imdb4_2023_list_picture3"></a></li>
-  </ul>
-</div>
-</div>
-<!--imdb2023结束-->
+    <!--imdbCOPYRIGHT-->
+    <div class="imdb6_copyright">
+      <p class="imdb6_copyright_right">© 1990-2023 by IMDb.com, Inc.</p>
+      <p class="imdb6_copyright_right">站长：龚润华</p>
+    </div>
 
-<!--imdb看什么开始-->
-<div class="imdb5_WhatToWatch">
-  <h3 class="imdb5_WhatToWatch_title">What to watch</h3>
-<div class="imdb5_WhatToWatch_recommendations1">
-  <a class="imdb5_WhatToWatch_recommendations" href="">
-    Get more recommendations 👉
-  </a>
-</div>
-<div class="imdb5_WhatToWatch_topPicks">
-  <img src="imgs/top-10.png" class="imdb5_WhatToWatch_topPicks_img">
-  <h3 class="imdb5_WhatToWatch_topPicks_title">Top picks ></h3>
-</div>
-<div class="imdb5_WhatToWatch_ForYou">
-  <p class="imdb5_WhatToWatch_ForYou_text">TV shows and movies just for you</p>
-</div>
-<div class="imdb5_WhatToWatch_list">
-  <div class="imdb5_WhatToWatch_list_up">
-  <div class="imdb5_WhatToWatch_list_post">
-    <img src="imgs/71.jpg" class="imdb5_WhatToWatch_list_post_picture"/>
-    <div class="mask">
-      <h3>Pulp Fiction</h3>
-      <p>
-        In a shadow-draped city, two uninvited guests slip into a dimly lit bar. Cold eyes scan the room like steel, and suddenly, a gunshot pierces the smoky air. A melancholy melody resonates in the corner as turbulent emotions surge through their veins. Destined to weave a bizarre and unique legend in the city's gritty underworld.</p>
-    </div>
-  </div>
-  <div class="imdb5_WhatToWatch_list_post">
-    <img src="imgs/72.jpg"class="imdb5_WhatToWatch_list_post_picture"/>
-    <div class="mask">
-      <h3>Se7en</h3>
-      <p>Detectives Somerset and Mills chase a serial killer who uses the seven deadly sins as a gruesome motif. As the unsettling crimes escalate, the city's darkness becomes palpable. The shocking climax reveals a chilling philosophy. "Se7en," a riveting thriller, leaves an indelible mark, probing the depths of human depravity.</p></div>
-  </div>
-  <div class="imdb5_WhatToWatch_list_post">
-    <img src="imgs/73.jpg"class="imdb5_WhatToWatch_list_post_picture"/>
-    <div class="mask">
-      <h3>Blade Runner</h3>
-    <p>In a dystopian future, "Blade Runner" follows Deckard, a skilled replicant hunter, tasked with eliminating rogue bioengineered beings. As he navigates a neon-lit cityscape, moral ambiguity unfolds, questioning the essence of humanity. Ridley Scott's masterpiece explores identity, artificial intelligence, and the blurred lines between man and machine in a visually stunning and thought-provoking narrative.</p></div>
-  </div>
-  <div class="imdb5_WhatToWatch_list_post">
-    <img src="imgs/74.jpg" class="imdb5_WhatToWatch_list_post_picture"/>
-    <div class="mask">
-      <h3>Taxi Driver</h3>
-    <p>delves into the gritty streets of New York City, following Travis Bickle, a mentally unstable Vietnam War veteran turned cab driver. His descent into urban alienation and obsession with saving a young prostitute provides a haunting portrayal of loneliness and societal decay. Martin Scorsese's cinematic masterpiece captivates with its raw intensity and iconic performances.
-    </p></div>
-
-  </div>
-  <div class="imdb5_WhatToWatch_list_post">
-    <img src="imgs/76.jpg"class="imdb5_WhatToWatch_list_post_picture"/>
-    <div class="mask">
-      <h3>American Psycho</h3>
-    <p>"American Psycho" unfolds the enigmatic life of Patrick Bateman, a wealthy New York investment banker harboring a dark and psychotic alter ego. Set against the backdrop of excess in the 1980s, the film delves into Bateman's disturbing descent into violence, blurring the lines between reality and delusion. This psychological thriller explores the veneer of sanity within the veneer of success.</p></div>
-
-  </div>
-  <div class="imdb5_WhatToWatch_list_post">
-    <img src="css/2333.jpg"class="imdb5_WhatToWatch_list_post_picture"/>
-    <div class="mask">
-      <h3>Pixels (2015)</h3>
-    <p>"Pixels" is a sci-fi comedy where Earth is threatened by video game characters brought to life by extraterrestrial forces. A group of arcade champions, led by Adam Sandler and his quirky team, must use their gaming skills to save the world. Packed with nostalgia and pixelated chaos, the film blends humor and action for a lighthearted adventure through retro gaming elements.</p></div>
-
-  </div>
-</div>
-<div class="imdb5_WhatToWatch_list_bottom">
-  <!--post1-->
-  <div class="imdb5_WhatToWatch_list_bottom_post">
-    <div class="imdb5_WhatToWatch_list_bottom_star">💛8.9</div>
-    <div class="imdb5_WhatToWatch_list_bottom_name"><a href="pulpFiction.html" class="imdb5_WhatToWatch_list_bottom_name1">Pulp Fiction</a></div>
-    <div class="imdb5_WhatToWatch_list_bottom_watchlist"><a href="" class="imdb5_WhatToWatch_list_bottom_watchlist1">➕WatchList</a></div>
-    <div class="imdb5_WhatToWatch_list_bottom_bottom">
-      <div class="imdb5_WhatToWatch_list_bottom_bottom_left"><a href="" class="imdb5_WhatToWatch_list_bottom_bottom_left_trailer">Trailer</a>
-    </div>
-    <div class="imdb5_WhatToWatch_list_bottom_bottom_right">
-      <a href="" class="imdb5_WhatToWatch_list_bottom_bottom_right_information_link"><img src="imgs/information.png" class="imdb5_WhatToWatch_list_bottom_bottom_right_information "></a>
-    </div>
-    </div>
-  </div>
-  <!--post2-->
-  <div class="imdb5_WhatToWatch_list_bottom_post">
-    <div class="imdb5_WhatToWatch_list_bottom_star">💛8.6</div>
-    <div class="imdb5_WhatToWatch_list_bottom_name"><a href="" class="imdb5_WhatToWatch_list_bottom_name1">Se7en</a></div>
-    <div class="imdb5_WhatToWatch_list_bottom_watchlist"><a href="" class="imdb5_WhatToWatch_list_bottom_watchlist1">➕WatchList</a></div>
-    <div class="imdb5_WhatToWatch_list_bottom_bottom">
-      <div class="imdb5_WhatToWatch_list_bottom_bottom_left"><a href="" class="imdb5_WhatToWatch_list_bottom_bottom_left_trailer">Trailer</a>
-    </div>
-    <div class="imdb5_WhatToWatch_list_bottom_bottom_right">
-      <a href="" class="imdb5_WhatToWatch_list_bottom_bottom_right_information_link"><img src="imgs/information.png" class="imdb5_WhatToWatch_list_bottom_bottom_right_information "></a>
-    </div>
-    </div>
-</div>
-<!--post3-->
-<div class="imdb5_WhatToWatch_list_bottom_post">
-  <div class="imdb5_WhatToWatch_list_bottom_star">💛8.1</div>
-  <div class="imdb5_WhatToWatch_list_bottom_name"><a href="" class="imdb5_WhatToWatch_list_bottom_name1">Blade Runner</a></div>
-  <div class="imdb5_WhatToWatch_list_bottom_watchlist"><a href="" class="imdb5_WhatToWatch_list_bottom_watchlist1">➕WatchList</a></div>
-  <div class="imdb5_WhatToWatch_list_bottom_bottom">
-    <div class="imdb5_WhatToWatch_list_bottom_bottom_left"><a href="" class="imdb5_WhatToWatch_list_bottom_bottom_left_trailer">Trailer</a>
-  </div>
-  <div class="imdb5_WhatToWatch_list_bottom_bottom_right">
-    <a href="" class="imdb5_WhatToWatch_list_bottom_bottom_right_information_link"><img src="imgs/information.png" class="imdb5_WhatToWatch_list_bottom_bottom_right_information "></a>
-  </div>
-  </div>
-</div>
-<!--post4-->
-<div class="imdb5_WhatToWatch_list_bottom_post">
-  <div class="imdb5_WhatToWatch_list_bottom_star">💛8.2</div>
-  <div class="imdb5_WhatToWatch_list_bottom_name"><a href="" class="imdb5_WhatToWatch_list_bottom_name1">Taxi  Driver</a></div>
-  <div class="imdb5_WhatToWatch_list_bottom_watchlist"><a href="" class="imdb5_WhatToWatch_list_bottom_watchlist1">➕WatchList</a></div>
-  <div class="imdb5_WhatToWatch_list_bottom_bottom">
-    <div class="imdb5_WhatToWatch_list_bottom_bottom_left"><a href="" class="imdb5_WhatToWatch_list_bottom_bottom_left_trailer">Trailer</a>
-  </div>
-  <div class="imdb5_WhatToWatch_list_bottom_bottom_right">
-    <a href="" class="imdb5_WhatToWatch_list_bottom_bottom_right_information_link"><img src="imgs/information.png" class="imdb5_WhatToWatch_list_bottom_bottom_right_information "></a>
-  </div>
-  </div>
-</div>
-<!--post5-->
-<div class="imdb5_WhatToWatch_list_bottom_post">
-  <div class="imdb5_WhatToWatch_list_bottom_star">💛7.6</div>
-  <div class="imdb5_WhatToWatch_list_bottom_name"><a href="" class="imdb5_WhatToWatch_list_bottom_name1">American Psycho</a></div>
-  <div class="imdb5_WhatToWatch_list_bottom_watchlist"><a href="" class="imdb5_WhatToWatch_list_bottom_watchlist1">➕WatchList</a></div>
-  <div class="imdb5_WhatToWatch_list_bottom_bottom">
-    <div class="imdb5_WhatToWatch_list_bottom_bottom_left"><a href="" class="imdb5_WhatToWatch_list_bottom_bottom_left_trailer">Trailer</a>
-  </div>
-  <div class="imdb5_WhatToWatch_list_bottom_bottom_right">
-    <a href="" class="imdb5_WhatToWatch_list_bottom_bottom_right_information_link"><img src="imgs/information.png" class="imdb5_WhatToWatch_list_bottom_bottom_right_information "></a>
-  </div>
-  </div>
-</div>
-<!--post6--><div class="imdb5_WhatToWatch_list_bottom_post">
-    <div class="imdb5_WhatToWatch_list_bottom_star">💛5.6</div>
-    <div class="imdb5_WhatToWatch_list_bottom_name"><a href="" class="imdb5_WhatToWatch_list_bottom_name1">PIXELS</a></div>
-    <div class="imdb5_WhatToWatch_list_bottom_watchlist"><a href="" class="imdb5_WhatToWatch_list_bottom_watchlist1">➕WatchList</a></div>
-    <div class="imdb5_WhatToWatch_list_bottom_bottom">
-      <div class="imdb5_WhatToWatch_list_bottom_bottom_left"><a href="" class="imdb5_WhatToWatch_list_bottom_bottom_left_trailer">Trailer</a>
-    </div>
-    <div class="imdb5_WhatToWatch_list_bottom_bottom_right">
-      <a href="" class="imdb5_WhatToWatch_list_bottom_bottom_right_information_link"><img src="imgs/information.png" class="imdb5_WhatToWatch_list_bottom_bottom_right_information "></a>
-    </div>
-    </div>
-</div>
-  </div>
-</div>
-</div>
-<!--imdb看什么结束-->
-
-<!--imdbCOPYRIGHT-->
-<div class="imdb6_copyright">
-  <p class="imdb6_copyright_right">© 1990-2023 by IMDb.com, Inc.</p>
-</div>
-
-<script src="js/index.js">
-
-</script>
-</body>
+    <script src="js/index.js"></script>
+  </body>
 </html>
