@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -62,21 +61,15 @@
     <!--imdb导航栏结束-->
 
     <!--background-->
-    <css-doodle grid="44x44">
-      :doodle { @size: 100vw 100vmin; } position: absolute;
-      <!--随机位置-->
-      top: @r(1%, 100%, 1.5); left: @r(1%, 100%, 1.5); width: 2px; height: 2px;
-      background: #000; border-radius: 50%;
-      <!--实现随机颜色-->
-      background: hsl(@r(200, 255, 3), @r(70%, 90%), @r(70%, 90%));
-      <!--随机旋转角度和移动方向-->
-      transform: rotate(@r(360deg)) translate(@r(-50, 50)vmin, @r(-50, 50)vmin);
-      <!--实现动画随机效果，使帧不同-->
-      animation: move 10s infinite @r(-10, 0)s @p(linear, ease-in, ease-in-out)
-      alternate;
-      <!--实现随机大小-->
-      zoom: @rn(.1, 5, 3); box-shadow: 0 0 1px #fff, 0 0 3px #fff; @keyframes
-      move { 100% { transform: rotate(0) translate(0, 0); } }
+    <css-doodle grid="40x40">
+      :doodle { @size: 100vw 100vmin; perspective: 10px; } position: absolute;
+      top: 0; left: 0; width: 2px; height: 2px; border-radius: 50%; top: @r(1%,
+      100%, 1.5); left: @r(1%, 100%, 1.5); background: hsl(@r(200, 255, 3),
+      @r(70%, 90%), @r(70%, 90%)); animation: move 10s infinite @r(-10, 0)s
+      @p(linear, ease-in, ease-in-out) alternate; transform: rotate(@r(360deg))
+      translate(@r(-50, 50)vmin, @r(-50, 50)vmin); zoom: @rn(.1, 5, 3);
+      box-shadow: 0 0 1px #fff, 0 0 3px #fff; @keyframes move { 100% {
+      transform: rotate(0) translate(0, 0); } }
     </css-doodle>
 
     <div class="Sign_In">
@@ -96,102 +89,3 @@
     <script src="js/login.js"></script>
   </body>
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="imgs/favicon_desktop_32x32._CB1582158068_.png" />
-    <title>IMDb</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.37.4/css-doodle.min.js"></script>
-    <link rel="stylesheet" href="css/style_login.css" />
-  </head>
-  <body>
-    <!--imdb导航栏开始-->
-    <nav class="imdb1_up">
-      <a href="index.html">
-        <img src="imgs/logo.png" class="home" href="" />
-      </a>
-      <div class="imdb1_up_select">
-        <div class="imdb1_up_select_border"><a href="">Menu</a></div>
-        <div class="imdb1_up_input_border">
-          <input
-            class="imdb1_up_select_character imdb1_up_select_search"
-            placeholder="Search IMDb"
-          />
-          <a href=""><img src="imgs/search.png" id="search" /></a>
-        </div>
-        <div class="imdb1_up_select_option">
-          <ul>
-            <li>
-              <div class="imdb1_up_select_option_other_border">
-                <a
-                  href=""
-                  id="imdb1_up_select_option_vip"
-                  class="imdb1_up_select_option_other"
-                  >IMDbPro</a
-                >
-              </div>
-            </li>
-
-            <li>
-              <div class="imdb1_up_select_option_other_border1">
-                <a href="" class="imdb1_up_select_option_other"
-                  ><img src="imgs/checklist.png" />WatchList</a
-                >
-              </div>
-            </li>
-            <li>
-              <div class="imdb1_up_select_option_other_border">
-                <a href="loginIn.html" class="imdb1_up_select_option_other"
-                  >Sign In</a
-                >
-              </div>
-            </li>
-            <li>
-              <div class="imdb1_up_select_option_other_border">
-                <a href="" class="imdb1_up_select_option_other">EN</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!--imdb导航栏结束-->
-
-    <!--background-->
-    <css-doodle grid="44x44">
-      :doodle { @size: 100vw 100vmin; } position: absolute;
-      <!--随机位置-->
-      top: @r(1%, 100%, 1.5); left: @r(1%, 100%, 1.5); width: 2px; height: 2px;
-      background: #000; border-radius: 50%;
-      <!--实现随机颜色-->
-      background: hsl(@r(200, 255, 3), @r(70%, 90%), @r(70%, 90%));
-      <!--随机旋转角度和移动方向-->
-      transform: rotate(@r(360deg)) translate(@r(-50, 50)vmin, @r(-50, 50)vmin);
-      <!--实现动画随机效果，使帧不同-->
-      animation: move 10s infinite @r(-10, 0)s @p(linear, ease-in, ease-in-out)
-      alternate;
-      <!--实现随机大小-->
-      zoom: @rn(.1, 5, 3); box-shadow: 0 0 1px #fff, 0 0 3px #fff; @keyframes
-      move { 100% { transform: rotate(0) translate(0, 0); } }
-    </css-doodle>
-
-    <div class="Sign_In">
-      <h2 class="title">Sign In</h2>
-      <input type="text" id="Sign_In_name" placeholder="Username" />
-      <input type="password" id="Sign_In_password" placeholder="Password" />
-      <input type="submit" value="sign in" id="Sign_In_submit" />
-      <div class="footer">
-        <div class="Remember">
-          <input type="checkbox" id="remember" />
-          <!--复选框-->
-          <label for="remember">remember</label>
-        </div>
-        <button id="Sign_up">sign up</button>
-      </div>
-    </div>
-    <script src="js/login.js"></script>
-  </body>
-</html>
->>>>>>> d613ba8b3066e57c91612519b3bd2b94a542ddad
